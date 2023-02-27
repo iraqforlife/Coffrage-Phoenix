@@ -1,4 +1,3 @@
-import { AppConfigService } from './services/app-config-service.service';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
@@ -35,19 +34,6 @@ import { HomeComponent } from './components/home/home.component';
   bootstrap: [
     AppComponent
   ],
-  providers:[
-    {
-      provide: APP_INITIALIZER,
-      multi: true,
-      deps: [AppConfigService],
-      useFactory: (appConfigService: AppConfigService) => {
-        return () => {
-          return appConfigService.loadAppConfig();
-        };
-      }
-    }
-
-  ]
 })
 export class AppModule { }
 
