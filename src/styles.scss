@@ -1,0 +1,32 @@
+body {
+  background: #303030;
+  color: #fff;
+  margin: 0;
+}
+.center-spinner {
+  font-size: 300%; position: absolute; top: 50%; left: 50%; z-index: 10;
+}
+.mat-layout-grid {
+  padding: 24px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mat-card-clean-margin {
+  margin-bottom: 0 !important; 
+}
+.mdc-button {
+  padding: 0 8px 0 8px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  overflow: visible;
+  vertical-align: middle;
+  border-radius: 4px;
+  height: 36px;
+}

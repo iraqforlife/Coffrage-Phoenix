@@ -1,0 +1,44 @@
+.lang-selector {
+  margin-top: 1px;
+  color: #013382 !important;
+  &::ng-deep.mat-form-field-infix {
+    border: none;
+    width: 8vmin;
+
+    @media only screen and (max-width: 500px) {
+      width: 12vmin;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 14vmin;
+    }
+  }
+}
+.mat-select-value-text {
+  color: green !important;
+}
+.selectorfont {
+  font-size: 1.2em;
+  font-weight: bold;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 1.5em;
+  }
+}
+.optionfont {
+  color: #013382 !important;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+::ng-deep .mat-select-value {
+  color: #013382 !important;
+}
+::ng-deep .mat-select-arrow {
+  color: #013382;
+  border-left: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+  border-top: 15px solid !important;
+}
+::ng-deep .mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+  color: #e34b00 !important;
+}

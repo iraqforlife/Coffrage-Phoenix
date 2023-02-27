@@ -1,0 +1,6 @@
+<mat-spinner class="center-spinner" *ngIf="loading"></mat-spinner>
+
+<div [@slideInAnimation]="o.isActivated ? o.activatedRoute : ''" class="container">
+    
+    <router-outlet #o="outlet"></router-outlet>
+</div>
