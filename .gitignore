@@ -1,0 +1,6 @@
+.anuglar/
+.anuglar/cache
+**/babel-webpack
+**/angular-webpack
+node_modules/
+node_modules
