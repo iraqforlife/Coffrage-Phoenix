@@ -10,6 +10,9 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HomeComponent } from './components/home/home.component';
 import { SoumissionComponent } from './components/soumission/soumission.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { RealisationsComponent } from './components/realisations/realisations.component';
+import { CommercialComponent } from './components/commercial/commercial.component';
 
 @NgModule({
   imports: [
@@ -32,6 +35,9 @@ import { SoumissionComponent } from './components/soumission/soumission.componen
     AppComponent,
     HomeComponent,
     SoumissionComponent,
+    ContactComponent,
+    RealisationsComponent,
+    CommercialComponent,
   ],
   bootstrap: [
     AppComponent

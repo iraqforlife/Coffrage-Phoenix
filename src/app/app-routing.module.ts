@@ -1,3 +1,6 @@
+import { ContactComponent } from './components/contact/contact.component';
+import { CommercialComponent } from './components/commercial/commercial.component';
+import { RealisationsComponent } from './components/realisations/realisations.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
@@ -14,14 +17,18 @@ const routes: Routes = [
     path: 'soumission',
     component: SoumissionComponent,
   },
-  /*{
-    path: 'details',
-    component: CimcoDetailComponent,
+  {
+    path: 'realisation',
+    component: RealisationsComponent,
   },
   {
-    path:'admin',
-    component: AdminComponent
-  }*/
+    path:'commercial',
+    component: CommercialComponent
+  },
+  {
+    path:'contact',
+    component: ContactComponent
+  }
 ];
 
 @NgModule({

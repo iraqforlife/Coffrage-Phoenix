@@ -1,1 +1,65 @@
-<p>soumission works!</p>
+
+<div class="padding-060px">
+    <div class="padding-015px alignleft">
+        <p class="opensans font-032 color-02">Demande de soumission</p>
+        <p class="opensans font-017 color-02">Pour faire une demande de soumission vous n'avez qu'à remplir tous les champs 
+            ci-dessous et cliquer sur le bouton <b>ENVOYER LA DEMANDE</b>.
+        </p>
+        <br>
+    </div>
+
+    <form method="POST" action="https://coffragesphoenix.com/form.php">
+        <div class="columns-02-5050 alignleft">
+            <div>
+                <p class="opensans font-017 color-02">NOM<br>
+                    <input type="text" name="Nom" style="width:70%;" required="">
+                </p>
+                <br>
+                <p class="opensans font-017 color-02">TÉLÉPHONE<br>
+                    <input type="text" name="Telephone" style="width:70%;" required="">
+                </p>
+                <br>
+                <p class="opensans font-017 color-02">COURRIEL<br>
+                    <input type="email" name="Courriel" style="width:70%;">
+                </p>
+                <br>
+                <p class="opensans font-017 color-02">VILLE<br> 
+                    <input type="text" name="Ville" style="width:70%;" required="">
+                </p>
+                <br>
+            </div>
+            <div> 
+                <p class="opensans font-024 color-02"><b>Secteur</b><br>
+                    <input type="radio" name="Secteur" value="Residentiel">
+                    <span class="opensans font-017 color-02">Résidentiel</span>
+                    <br>
+                    <input type="radio" name="Secteur" value="Commercial">
+                    <span class="opensans font-017 color-02">Commercial</span>
+                    <br>
+                    <br>
+                </p>
+                <p class="opensans font-017 color-02">DESCRIPTION DES TRAVAUX
+                    <br> 
+                    <textarea name="Description" rows="3" style="width:70%;"></textarea>
+                </p>     
+                <br>
+            </div>      
+        </div>
+        <div class="aligncenter">
+            <p></p>
+            <div class="g-recaptcha" data-sitekey="6LdRtuMZAAAAAHLNVTDhduEk6p82iSXOOJXJCgKf">
+                <div style="width: 304px; height: 78px;"><div>
+                <iframe title="reCAPTCHA" src="./assets/anchor.html" width="304" height="78" role="presentation" name="a-cuf2dk1jxiiz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+            </div>
+                <iframe style="display: none;" src="./assets/saved_resource.html"></iframe>
+            </div>
+            <p></p>
+            <br>
+            <p>
+            <input class="button-quote" type="submit" name="submit" value="ENVOYER LA DEMANDE">
+            </p>
+            </div> 
+    </form>
+</div> 

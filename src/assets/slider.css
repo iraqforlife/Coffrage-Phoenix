@@ -1,0 +1,529 @@
+.slidercontainer  {
+position:relative;
+width:100%;
+top:165px;
+}
+
+.slidercontainerfont  {
+position:absolute;
+z-index:10;
+width:95%;
+top:75px;
+left:2.5%;  
+background-color:transparent;
+}
+
+.sliderfont1 {
+font-family : arial, helvetica, sans-serif;
+font-size : 100px;
+letter-spacing: normal;
+text-decoration : none;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 3px #000000;
+}
+
+.sliderfont2 {
+font-family : arial, helvetica, sans-serif;
+font-size : 60px;
+letter-spacing: normal;
+text-decoration : none;
+line-height: normal;
+text-shadow: 1px 1px #000000;
+}
+
+
+
+
+
+
+
+#slider2images {
+	overflow: hidden;
+}
+
+#slider2images figure {
+	position: relative;
+	width: 200%;
+	margin: 0;
+	left: 0;
+	animation: 12s slider2images infinite;
+}
+
+#slider2images figure img {
+	float: left;
+	width: 50%;
+
+}
+
+@keyframes slider2images {
+	0% { left: 0;}
+	40% { left: 0%;}
+	50% { left: -100%;}
+	90% { left: -100%;}
+}
+
+
+
+
+
+
+#slider3images {
+	overflow: hidden;
+}
+
+#slider3images figure {
+	position: relative;
+	width: 300%;
+	margin: 0;
+	left: 0;
+	animation: 14s slider3images infinite;
+}
+
+#slider3images figure img {
+	float: left;
+	width: 33.3333%;
+
+}
+
+@keyframes slider3images {
+	0% { left: 0;}
+	27% { left: 0%;}
+	33.333% { left: -100%;}
+	60.333% { left: -100%;}
+	66.666% { left: -200%;}
+	94.5% { left: -200%;}
+}
+
+
+
+
+
+
+
+#slider4images {
+	overflow: hidden;
+}
+
+#slider4images figure {
+	position: relative;
+	width: 400%;
+	margin: 0;
+	left: 0;
+	animation: 25s slider4images infinite;
+}
+
+#slider4images figure img {
+	float: left;
+	width: 25%;
+
+}
+
+@keyframes slider4images {
+	0% { left: 0;}
+	20% { left: 0%;}
+	25% { left: -100%;}
+	45% { left: -100%;}
+	50% { left: -200%;}
+	70% { left: -200%;}
+	75% { left: -300%;}
+    95% { left: -300%;}
+}
+
+
+
+
+
+
+#slider5images {
+	overflow: hidden;
+}
+
+#slider5images figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider5images infinite;
+}
+
+#slider5images figure img {
+	float: left;
+	width: 20%;
+
+}
+
+@keyframes slider5images {
+	0% { left: 0;}
+	10% { left: 0%;}
+	20% { left: -100%;}
+	30% { left: -100%;}
+	40% { left: -200%;}
+	50% { left: -200%;}
+	60% { left: -300%;}
+	70% { left: -300%;}
+	80% { left: -400%;}
+	90% { left: -400%;}
+}
+
+
+
+
+
+#slider8images {
+	overflow: hidden;
+}
+
+#slider8images figure {
+	position: relative;
+	width: 800%;
+	margin: 0;
+	left: 0;
+	animation: 35s slider8images infinite;
+}
+
+#slider8images figure img {
+	float: left;
+	width: 12.5%;
+
+}
+
+@keyframes slider8images {
+	0% { left: 0;}
+    9% { left: 0%;}
+	12.5% { left: -100%;}
+	21.5% { left: -100%;}
+	25% { left: -200%;}
+	34% { left: -200%;}
+	37.5% { left: -300%;}
+	46.5% { left: -300%;}
+	50% { left: -400%;}
+	59% { left: -400%;}
+	62.5% { left: -500%;}
+    71.5% { left: -500%;}
+	75% { left: -600%;}
+	84% { left: -600%;}
+	87.5% { left: -700%;}
+	96.5% { left: -700%;}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+.slidercontainer {
+top:165px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:70px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size : 95px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 3px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+
+.slidercontainer {
+top:165px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:60px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:85px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 2px #000000;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+.slidercontainer  {
+top:165px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:58px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:80px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 2px #000000;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+.slidercontainer  {
+top:165px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:55px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:70px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 2px #000000;
+}
+
+}
+
+
+
+/* Tablet */
+
+
+
+@media only screen and (max-width: 1050px) {
+
+.slidercontainer  {
+top:170px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:50px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:65px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 2px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+.slidercontainer  {
+top:170px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:45px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:58px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 2px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+.slidercontainer  {
+top:170px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:42px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:52px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 1px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 725px) {
+
+.slidercontainer  {
+top:235px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:38px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:45px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 1px #000000;
+}
+
+}
+
+
+
+
+
+/* Phone */
+
+
+
+@media only screen and (max-width: 650px) {
+
+.slidercontainer  {
+top:0px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:35px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:37px;
+line-height: normal;
+text-shadow: 1px 1px 1px #000000, 1px 0px 1px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+.slidercontainer  {
+top:0px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:22px;
+left:2.5%;  
+}
+
+.sliderfont1 {
+font-size:32px;
+line-height: 1;
+text-shadow: 1px 1px 1px #000000, 1px 0px 1px #000000;
+}
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+.slidercontainer  {
+top:0px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:20px;
+left:3.5%;  
+}
+
+.sliderfont1 {
+font-size:25px;
+line-height: 1;
+text-shadow: 1px 1px 1px #000000, 1px 0px 1px #000000;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+.slidercontainer  {
+top:0px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:20px;
+left:4%;  
+}
+
+.sliderfont1 {
+font-size:22px;
+line-height: 1.05;
+text-shadow: 1px 1px 1px #000000,;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 325px) {
+
+.slidercontainer  {
+top:0px;
+}
+
+.slidercontainerfont  {
+width:95%;
+top:22px;
+left:4%;  
+}
+
+.sliderfont1 {
+font-size:20px;
+line-height: 1.1;
+text-shadow: 1px 1px 1px #000000,;
+}
+
+}

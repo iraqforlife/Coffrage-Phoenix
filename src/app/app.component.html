@@ -1,6 +1,114 @@
+
+<header>
+    <nav class="backgroundcolor-white">
+        <div class="header-menu">
+            <div>
+                <a [routerLink]="['/']"><img class="header-logo imagehover-01" src="./assets/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
+            </div>
+            <div class="alignright">
+                <div class="navfont-menu fonthover-03">
+                    <a [routerLink]="['/realisation']">RÉALISATIONS</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/commercial']">COMMERCIAL</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/soumission']">SOUMISSION</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/contact']">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
 <mat-spinner class="center-spinner" *ngIf="loading"></mat-spinner>
 
 <div [@slideInAnimation]="o.isActivated ? o.activatedRoute : ''" class="container">
-    
     <router-outlet #o="outlet"></router-outlet>
+</div>
+<footer>
+    <div class="backgroundcolor-04">
+    <div class="spacer-010px"></div>
+        <div class="container-95pct columns-03-333333-02 padding-050px">
+            <div class="alignleft">
+                <a [routerLink]="['/']"><img class="footer-logo imagehover-02" src="./assets/coffrages-phoenix_650px_blanc.png" alt="Coffrages Phoenix"></a>
+                <p>
+                    <span class="opensans font-017 color-01 bold lineheight-150">Coffrage et fondation de béton</span>
+                    <br>
+                    <span class="opensans font-017 color-01 lineheight-125">Laval (QC)<br>H7V 3H7</span>
+                </p>
+                <p>
+                    <span class="footer-phone fonthover-02 bold"><a href="tel:5144442822">514 444-2822</a></span>
+                    <br>
+                    <span class="opensans font-016 fonthover-06 italic"><a href="mailto:soumission@coffragesphoenix.com">soumission@coffragesphoenix.com</a></span>
+                </p>
+                <div class="footer-spacer-001"></div>
+            </div>
+            
+            <div class="alignleft">
+                <div>
+                    <p class="opensans font-024 fonthover-04 bold"><span>SERVICES</span></p>
+                    <p class="opensans font-017 fonthover-04 lineheight-125">
+                        <span>Balcon de béton</span><br>
+                        <span>Coffrage de béton</span><br>
+                        <span>Dalle de béton</span><br>
+                        <span>Escalier de béton</span><br> 
+                        <span>Fissure de béton</span><br>
+                        <span>Fondation de béton</span><br>      
+                        <span>Réparation de béton</span>
+                    </p>
+                    <div class="footer-spacer-001"></div>
+                </div>
+            </div>
+            
+            <div class="alignleft">
+                <div class="">
+                <p class="opensans font-024 fonthover-04 bold">
+                VILLES ET RÉGIONS<br>
+                DESSERVIES
+                </p>
+                <p class="opensans font-016 fonthover-04 lineheight-125">
+                <span>Blainville</span>, 
+                <span>Bois-des-Fillion</span>,  
+                <span>Chertsey</span>, 
+                <span>Fontainebleau</span>,
+                <span>Joliette</span>,
+                <span>L'Assomption</span>,
+                <span>L'Épiphanie</span>,
+                <span>Lachenaie</span>, 
+                <span>La Plaine</span>, 
+                <span>Lac Écho</span>, 
+                <span>Lac Siesta</span>, 
+                <span>Laurentides</span>, 
+                <span>Laval</span>, 
+                <span>Lorraine</span>, 
+                <span>Mascouche</span>,
+                <span>Rawdon</span>,
+                <span>Repentigny</span>,  
+                <span>Rive-Nord</span>, 
+                <span>Rosemère</span>,
+                <span>Saint-Alexis</span>,
+                <span>Saint-Calixte</span>, 
+                <span>Saint-Esprit</span>,
+                <span>Saint-Eustache</span>,
+                <span>Saint-Hippolyte</span>, 
+                <span>Saint-Jacques</span>, 
+                <span>Saint-Jérôme</span>, 
+                <span>Saint-Lin</span>, 
+                <span>Saint-Roch-de-L'Achigan</span>,  
+                <span>Sainte-Anne-des-Plaines</span>, 
+                <span>Sainte-Julienne</span>,
+                <span>Sainte-Sophie</span>, 
+                <span>Sainte-Thérèse</span>,   
+                <span>Terrebonne</span>
+                </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+    <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div>
+    <div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div>
+    <div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div>
+    <div style="z-index: 2000000000; position: relative;">
+        <iframe title="l&#39;image du défi reCAPTCHA expire dans deux minutes" src="./assets/bframe.html" name="c-cuf2dk1jxiiz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe>
+    </div>
 </div>
