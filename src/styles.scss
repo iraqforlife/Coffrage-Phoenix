@@ -6,7 +6,8 @@
   z-index: 10;
 }
 
-html,body {
+html,
+body {
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -45,7 +46,66 @@ p {
 .alignright {
   text-align: right;
 }
+
+.justify {
+  text-align: justify;
+}
+
+
+
+
+/*  ANCHORS  */
+
+.anchor-01 {}
+
+
+
 /*  BUTTONS  */
+
+.button-01 {
+  color: white;
+  background-color: #284574;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 750ms;
+}
+
+.button-01:hover {
+  color: #ffffff;
+  background-color: #5991ed;
+  transition: 750ms;
+}
+
+
+.button-02 {
+  color: #454c52;
+  background-color: rgba(69, 76, 82, 0.025);
+  border: 3px solid #454c52;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  opacity: 0.80;
+  transition: 750ms;
+}
+
+.button-02:hover {
+  color: #454c52;
+  background-color: rgba(69, 76, 82, 0.14);
+  opacity: 1.00;
+  transition: 750ms;
+}
+
+
 
 .button-border {
   color: white;
@@ -91,10 +151,82 @@ p {
   background-color: #3a76d9;
   transition: 750ms;
 }
+
+
+.button-slider {
+  color: #ffffff;
+  background-color: #0e1826;
+  border: none;
+  padding: 10px 90px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 750ms;
+}
+
+.button-slider:hover {
+  color: #0e1826;
+  background-color: #ffffff;
+  transition: 750ms;
+}
+
+
+
+.button-arrow {
+  border: none;
+  display: inline-block;
+  padding: 30px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  background-color: #000;
+  opacity: 0.40;
+  text-align: center;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.button-arrow:hover {
+  color: #fff;
+  background-color: #000;
+  opacity: 0.65;
+  transition: 350ms;
+}
+
+
+
+
+
+
+
 /*  COLORS  */
+
+.backgroundcolor-01 {
+  background-color: #222f43;
+}
+
+.backgroundcolor-03 {
+  background-color: #284574;
+}
+
 .backgroundcolor-04 {
   background-color: #1c1c1c;
 }
+
+.backgroundcolor-05 {
+  background-color: #f6f6f6;
+}
+
+.backgroundcolor-sitextra {
+  background-color: #0d0d0d;
+}
+
 .backgroundcolor-white {
   background-color: #ffffff;
 }
@@ -106,8 +238,21 @@ p {
 .color-02 {
   color: #000000;
 }
+
+.color-03 {
+  color: #0e1826;
+}
+
 .color-04 {
   color: #454c52;
+}
+
+.color-05 {
+  color: #7b8289;
+}
+
+.color-06 {
+  color: #1b2e49;
 }
 
 .color-black {
@@ -117,30 +262,100 @@ p {
 .color-white {
   color: #ffffff;
 }
+
+
+
+
+
 /*  COLUMNS  */
+
+.columns-02-2575 {
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+
+.columns-02-3366 {
+  display: grid;
+  grid-template-columns: 33% auto;
+}
+
+.columns-02-4060 {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
 .columns-02-5050 {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px 20px;
 }
 
+.columns-02-5050-02 {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+
+.columns-02-7525 {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.columns-03-333333 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 20px;
+}
 
 .columns-03-333333-02 {
   display: grid;
   grid-template-columns: 33.333% 33.333% auto;
 }
 
+.columns-03-332542 {
+  display: grid;
+  grid-template-columns: 33.333% 25% auto;
+}
+
+.columnswithgap-02 {
+  display: grid;
+  grid-template-columns: 48.5% 3% auto;
+}
+
+.columnswithgap-02-3366 {
+  display: grid;
+  grid-template-columns: 33% 3% auto;
+}
 
 .columnswithgap-03 {
   display: grid;
   grid-template-columns: 31% 3.5% 31% 3.5% auto;
 }
 
+.columns-09 {
+  display: grid;
+  grid-template-columns: 11.111% 11.111% 11.111% 11.111% 11.111% 11.111% 11.111% 11.111% auto;
+}
+
+
+
+
 
 /*  CONTAINERS  */
+
 .absolute {
   position: absolute;
   z-index: 3;
+}
+
+.container-90pct {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.container-91pct {
+  width: 91%;
+  margin: 0 auto;
 }
 
 .container-95pct {
@@ -149,10 +364,32 @@ p {
   margin: 0 auto;
 }
 
+.container-100pct {
+  width: 100%;
+}
+
 .container-1200px {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.iframe-01 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-01 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .relative {
@@ -165,6 +402,30 @@ p {
   margin-top: 130px;
   z-index: 2;
 }
+
+.slider-001 {
+  position: absolute;
+  background-color: transparent;
+  top: 60px;
+  left: 50px;
+  width: 740px;
+  height: auto;
+  z-index: 3;
+}
+
+.slider-002 {
+  position: absolute;
+  background-color: transparent;
+  top: 290px;
+  left: 50px;
+  width: 700px;
+  height: auto;
+  z-index: 3;
+}
+
+
+
+
 /*  DISPLAY  */
 
 .block {
@@ -494,6 +755,14 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.backgroundimage-01 {
+  background-image: url('./assets/coffrage-de-beton-saint-lin-laurentides.jpg');
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .image-center {
@@ -949,6 +1218,18 @@ img {
     max-width: 1080px;
   }
 
+  .slider-001 {
+    top: 50px;
+    left: 49px;
+    width: 740px;
+  }
+
+  .slider-002 {
+    top: 280px;
+    left: 49px;
+    width: 700px;
+  }
+
   .spacer-004 {
     height: 8px;
   }
@@ -1010,6 +1291,19 @@ img {
   .padding-060px {
     padding: 50px 0;
   }
+
+  .slider-001 {
+    top: 45px;
+    left: 47px;
+    width: 740px;
+  }
+
+  .slider-002 {
+    top: 275px;
+    left: 47px;
+    width: 700px;
+  }
+
   .spacer-001 {
     height: 9px;
   }
@@ -1089,6 +1383,17 @@ img {
     margin-top: 0;
   }
 
+  .slider-001 {
+    top: 45px;
+    left: 47px;
+    width: 740px;
+  }
+
+  .slider-002 {
+    top: 240px;
+    left: 47px;
+    width: 700px;
+  }
 
   .spacer-001 {
     height: 8px;
@@ -1141,6 +1446,12 @@ img {
     grid-gap: 12px 12px;
   }
 
+  .slider-001 {
+    top: 43px;
+    left: 47px;
+    width: 740px;
+  }
+
   .spacer-001 {
     height: 7px;
   }
@@ -1165,6 +1476,15 @@ img {
 
 @media only screen and (max-width: 900px) {
 
+  .backgroundimage-01 {
+    background-image: url('./assets/coffrage-de-beton-saint-lin-laurentides.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: block;
+    height: 100%;
+  }
 
   .button-01 {
     padding: 8px 13px;
@@ -1219,6 +1539,19 @@ img {
   .padding-060px {
     padding: 35px 0;
   }
+
+  .slider-001 {
+    top: 40px;
+    left: 43px;
+    width: 620px;
+  }
+
+  .slider-002 {
+    top: 200px;
+    left: 43px;
+    width: 600px;
+  }
+
   .spacer-001 {
     height: 6px;
   }
@@ -1318,6 +1651,18 @@ img {
     padding: 32px 0;
   }
 
+  .slider-001 {
+    top: 30px;
+    left: 40px;
+    width: 620px;
+  }
+
+  .slider-002 {
+    top: 190px;
+    left: 40px;
+    width: 600px;
+  }
+
   .spacer-001 {
     height: 1px;
   }
@@ -1409,6 +1754,19 @@ img {
   .padding-060px {
     padding: 30px 0;
   }
+
+  .slider-001 {
+    top: 30px;
+    left: 40px;
+    width: 620px;
+  }
+
+  .slider-002 {
+    top: 170px;
+    left: 40px;
+    width: 600px;
+  }
+
   .spacer-001 {
     height: 0px;
     margin-top: -2px;
@@ -1445,6 +1803,10 @@ img {
 
   .alignright {
     text-align: center;
+  }
+
+  .backgroundimage-01 {
+    height: 400px;
   }
 
   .button-01 {
@@ -1553,6 +1915,18 @@ img {
 
   .padding-060px {
     padding: 30px 0;
+  }
+
+  .slider-001 {
+    top: 30px;
+    left: 30px;
+    width: 620px;
+  }
+
+  .slider-002 {
+    top: 160px;
+    left: 30px;
+    width: 600px;
   }
 
   .spacer-001 {
@@ -1677,6 +2051,18 @@ img {
     padding: 30px 0;
   }
 
+  .slider-001 {
+    top: 25px;
+    left: 30px;
+    width: 520px;
+  }
+
+  .slider-002 {
+    top: 140px;
+    left: 30px;
+    width: 500px;
+  }
+
   .spacer-001 {
     height: 0px;
     margin-top: -2px;
@@ -1703,6 +2089,7 @@ img {
 
 
 @media only screen and (max-width: 550px) {
+
   .button-02 {
     border: 1px solid #454c52;
     padding: 1px 6px;
@@ -1744,6 +2131,18 @@ img {
   .navfont-menu {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .slider-001 {
+    top: 25px;
+    left: 25px;
+    width: 500px;
+  }
+
+  .slider-002 {
+    top: 130px;
+    left: 25px;
+    width: 490px;
   }
 
   .spacer-001 {
@@ -1788,6 +2187,11 @@ img {
   .alignleft {
     text-align: center;
   }
+
+  .backgroundimage-01 {
+    height: 350px;
+  }
+
 
   .button-02 {
     display: none;
@@ -1869,6 +2273,19 @@ img {
     line-height: 20px;
   }
 
+  .slider-001 {
+    top: 20px;
+    left: 20px;
+    width: 450px;
+  }
+
+  .slider-002 {
+    top: 105px;
+    left: 20px;
+    width: 450px;
+  }
+
+
   .spacer-001 {
     height: 0px;
     margin-top: -5px;
@@ -1922,6 +2339,11 @@ img {
 
 @media only screen and (max-width: 425px) {
 
+  .backgroundimage-01 {
+    height: 300px;
+  }
+
+
   .button-01 {
     padding: 9px 16px;
     font-size: 13px;
@@ -1957,6 +2379,18 @@ img {
   .navfont-menu {
     font-size: 13px;
     line-height: 20px;
+  }
+
+  .slider-001 {
+    top: 17px;
+    left: 17px;
+    width: 400px;
+  }
+
+  .slider-002 {
+    top: 95px;
+    left: 17px;
+    width: 380px;
   }
 
   .spacer-001 {
@@ -2014,6 +2448,19 @@ img {
     font-size: 13px;
     line-height: 20px;
   }
+
+  .slider-001 {
+    top: 10px;
+    left: 10px;
+    width: 365px;
+  }
+
+  .slider-002 {
+    top: 80px;
+    left: 10px;
+    width: 365px;
+  }
+
   .top-050px {
     top: 13px;
   }
@@ -2036,9 +2483,22 @@ img {
     line-height: 1.20;
   }
 
+  .slider-001 {
+    top: 7px;
+    left: 9px;
+    width: 325px;
+  }
+
+  .slider-002 {
+    top: 70px;
+    left: 9px;
+    width: 325px;
+  }
+
   .top-050px {
     top: 17px;
   }
+
   .top-060px {
     top: 7px;
   }
