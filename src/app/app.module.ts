@@ -1,3 +1,4 @@
+import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
@@ -13,6 +14,9 @@ import { SoumissionComponent } from './components/soumission/soumission.componen
 import { ContactComponent } from './components/contact/contact.component';
 import { RealisationsComponent } from './components/realisations/realisations.component';
 import { CommercialComponent } from './components/commercial/commercial.component';
+import { MatCommonModule } from '@angular/material/core';
+import { MaterialModule } from './modules/material.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -23,6 +27,12 @@ import { CommercialComponent } from './components/commercial/commercial.componen
     MatProgressSpinnerModule,
     HttpClientModule,
     AppRoutingModule,
+    MatCommonModule,
+    MaterialModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule,
+    TranslateModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -38,6 +48,7 @@ import { CommercialComponent } from './components/commercial/commercial.componen
     ContactComponent,
     RealisationsComponent,
     CommercialComponent,
+    LanguageSelectorComponent
   ],
   bootstrap: [
     AppComponent
