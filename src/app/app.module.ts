@@ -9,6 +9,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HomeComponent } from './components/home/home.component';
+import { SoumissionComponent } from './components/soumission/soumission.component';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { HomeComponent } from './components/home/home.component';
   declarations: [
     AppComponent,
     HomeComponent,
+    SoumissionComponent,
   ],
   bootstrap: [
     AppComponent
