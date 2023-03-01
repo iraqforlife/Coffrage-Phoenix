@@ -1,7 +1,7 @@
 import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AppRoutingModule } from './app-routing.module';
-import { NgModule, APP_INITIALIZER } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -17,6 +17,7 @@ import { CommercialComponent } from './components/commercial/commercial.componen
 import { MatCommonModule } from '@angular/material/core';
 import { MaterialModule } from './modules/material.module';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     ReactiveFormsModule,
     TranslateModule,
+    CommonModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

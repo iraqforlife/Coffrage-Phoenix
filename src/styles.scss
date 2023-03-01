@@ -399,7 +399,7 @@ p {
 
 .slider {
   position: relative;
-  margin-top: 130px;
+  //margin-top: 130px;
   z-index: 2;
 }
 
@@ -667,7 +667,7 @@ footer {
 header {
   width: 100%;
   height: auto;
-  position: fixed;
+  position: static;
   z-index: 15;
 }
 
