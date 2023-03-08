@@ -1,25 +1,4 @@
-@media only screen and (min-width: 1240px){
-  .section_wrapper {
-      max-width: 1220px;
-  }  
-}
-@media only screen and (min-width: 960px) and (max-width: 1239px) {
-  .section_wrapper {
-    max-width: 940px;
-}  
-}
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  .section_wrapper {
-    max-width: 708px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .section_wrapper {
-    max-width: 700px!important;
-    padding-left: 33px!important;
-    padding-right: 33px!important;
-  }
-}
+
 .section_wrapper {
   margin: 0 auto;
 }
