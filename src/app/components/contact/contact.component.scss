@@ -2,8 +2,12 @@
     font-size: 2rem;
     padding: 14px 0;
 }
-.__unstyled {
-    height: 0 !important;
+h4 {
+    font-size: 24px;
+    color: #0c4c8e; 
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0px;
 }
 .icon-row {
     vertical-align: middle;
@@ -41,19 +45,19 @@
     .section_wrapper {
         max-width: 1220px;
     }  
-  }
-  @media only screen and (min-width: 960px) and (max-width: 1239px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
     .section_wrapper {
-      max-width: 940px;
-  }  
-  }
-  @media only screen and (min-width: 768px) and (max-width: 959px) {
+        max-width: 940px;
+    }  
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
     .section_wrapper {
-      max-width: 708px;
+        max-width: 708px;
     }
-  }
-  @media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 767px) {
     .section_wrapper {
-      max-width: 700px!important;
+        max-width: 700px!important;
     }
-  }
+}
