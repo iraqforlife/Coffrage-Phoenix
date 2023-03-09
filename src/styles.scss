@@ -1,3 +1,30 @@
+.contact-footer {
+  margin-bottom: 25px;
+}
+.reseaux-footer p, .contact-footer p {
+  margin-bottom: 25px;
+}
+.contact-footer a {
+  margin-bottom: 15px;
+}
+.reseau-button {
+  border-radius: 50%;
+  padding: 9px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 18px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.025);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: 750ms;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
 .scroll-to-top {
   position: fixed;
   bottom: 15px;
@@ -530,13 +557,10 @@ p {
   transition: 850ms;
 }
 
-.fonthover-02 a {
-  color: #ffffff;
-  transition: 850ms;
-}
 
-.fonthover-02 a:hover {
+.fonthover-02:hover {
   color: #f8071d;
+  border-color: #f8071d !important;
   transition: 950ms;
 }
 
@@ -605,6 +629,7 @@ p {
 
 .fonthover-06 a:hover {
   color: #404afb;
+  border-color: #404afb;
   transition: 750ms;
 }
 
@@ -661,13 +686,6 @@ footer {
   height: auto;
   opacity: 1.00;
   display: block;
-}
-
-.footer-phone {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
-  letter-spacing: normal;
-  text-decoration: none;
 }
 
 .footer-spacer-001 {
