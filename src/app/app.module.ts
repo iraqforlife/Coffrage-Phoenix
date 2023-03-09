@@ -18,6 +18,7 @@ import { MatCommonModule } from '@angular/material/core';
 import { MaterialModule } from './modules/material.module';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { CommonModule } from '@angular/common';
     ContactComponent,
     RealisationsComponent,
     CommercialComponent,
-    LanguageSelectorComponent
+    LanguageSelectorComponent,
+    ScrollTopComponent
   ],
   bootstrap: [
     AppComponent
