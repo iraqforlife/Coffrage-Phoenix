@@ -22,14 +22,14 @@ export class AppComponent {
       translate.addLangs(['en', 'fr']);
   
       // // this language will be used as a fallback when a translation isn't found in the current language
-      translate.setDefaultLang('en');
+      translate.setDefaultLang('fr');
       const langChosen = localStorage.getItem('lang-chosen');
       if (langChosen) {
         this.translate.use(langChosen);
       } else {
         const browserLang = translate.getBrowserLang();
         if(browserLang) translate.use(browserLang);
-        else translate.use('en');
+        else translate.use('fr');
       }
     router.events.subscribe((routerEvent: Event) => {
       this.checkRouterEvent(routerEvent);
