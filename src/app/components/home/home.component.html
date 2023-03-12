@@ -1,10 +1,10 @@
 
 <div class="slider">
     <div class="absolute container-91pct top-050px left-003pct">
-        <p class="bebasneue specialfont-02 color-01">FONDATIONS ET<br>COFFRAGES</p>
-        <p class="bebasneue specialfont-06 color-black">Qualité et durabilité<br> avant tout!<br></p>
+        <p class="bebasneue specialfont-02 color-01">{{'home.h1'|translate}}<br>{{'home.h2'|translate}}</p>
+        <p class="bebasneue specialfont-06 color-black">{{'home.h3'|translate}}<br> {{'home.h4'|translate}}<br></p>
         <div class="spacer-001"></div> 
-        <a class="button-border" [routerLink]="['/soumission']">SOUMISSION&nbsp; &#10095;</a>
+        <a class="button-border" [routerLink]="['/soumission']">{{'QUOTE'|translate}}&nbsp; &#10095;</a>
         <a name="services"></a>  
     </div>
     <div id="slider2images">
@@ -17,7 +17,7 @@
 <div class="container-1200px padding-060px" style="padding-bottom: 0;">
     <div class="columnswithgap-03">
         <div>
-            <p class="opensans font-024 fonthover-05 bold"><span>Coffrage</span></p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p1'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/coffrage-de-beton.jpg" alt="Coffrage de béton">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">
@@ -28,9 +28,7 @@
         </div> 
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Fondation</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p2'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/fondation.jpg" alt="Fondation de béton">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">Les fondations en béton sont un élément <strong>crucial</strong> pour tout bâtiment,
@@ -43,9 +41,7 @@
         </div>  
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Escalier de béton</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-staircase'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/escalier-de-beton.jpg" alt="Escalier de béton">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">
@@ -57,9 +53,7 @@
     <div class="spacer-003"></div>
     <div class="columnswithgap-03">
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Balcon de béton</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-balcony'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/balcon-de-beton.jpg" alt="Balcon de béton">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">Les balcons en béton sont populaires pour leur <strong>durabilité</strong>, leur <strong>solidité</strong>
@@ -71,9 +65,7 @@
         </div> 
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Descente de sous-sol</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p3'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/descente-de-sous-sol-en-beton_003.png" alt="Réparation de fissure">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">
@@ -85,9 +77,7 @@
         </div>  
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Agrandissement de maison</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p4'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/agrandissement.jpg" alt="Réparation de béton">
             <a name="soumission"></a> 
             <div class="spacer-010px"></div>
@@ -102,9 +92,7 @@
     <div class="spacer-003"></div>
     <div class="columnswithgap-03"style="padding-bottom: 60px;">
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Dalle de béton</span>
-            </p>
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-dalle'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/dalle.jpg" alt="Balcon de béton">
             <div class="spacer-010px"></div>
             <p class="opensans font-014 justify">Les dalles de béton sont utilisées pour une variété de projets de construction,
@@ -117,31 +105,34 @@
         </div> 
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Mini excavation</span>
-            </p>
-            <img class="imagehover-02 border-01px" src="./assets/img/excavation.jpg" alt="Réparation de fissure">
+            <p class="opensans font-024 fonthover-05 bold"><span>Mini excavation</span></p>
+            <img class="imagehover-02 border-01px" src="./assets/img/excavation.jpg" alt="Mini excavation">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">Les mini-excavations sont souvent utilisées pour creuser des <strong></strong> tranchées
+            <p class="opensans font-014 justify" *ngIf="isFrench">Les mini-excavations sont souvent utilisées pour creuser des <strong>tranchées</strong>
                 pour les conduites d'eau et des <strong>drains français</strong>, ainsi que pour la <strong>préparation de terrains</strong>.
                 Les mini-excavateurs sont compacts et peuvent accéder à des espaces restreints, ce qui les rend pratiques
                 pour les projets dans des <strong>zones urbaines denses</strong>. Ils sont également efficaces pour creuser à des profondeurs précises
                 et pour effectuer <strong>des travaux délicats</strong> sur les propriétés existantes.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench">We also specialize in water pipe and <strong>French drain</strong> installations,
+                as well as <strong>site preparation</strong>. Our mini-excavators are compact and can access restricted spaces,
+                making them practical for projects in <strong>dense urban areas</strong>. They are also effective for digging at precise
+                depths and for performing <strong>delicate work</strong> on existing properties.</p>
             <div class="spacer-002"></div>
         </div>  
         <div></div>  
         <div>
-            <p class="opensans font-024 fonthover-05 bold">
-            <span>Réparation</span>
-            </p>
-            <img class="imagehover-02 border-01px" src="./assets/img/reparation-de-beton.jpg" alt="Réparation de béton">
+            <p class="opensans font-024 fonthover-05 bold"><span>{{'repair'|translate}}</span></p>
+            <img class="imagehover-02 border-01px" src="./assets/img/reparation-de-fissure.jpg" alt="Réparation de béton">
             <a name="soumission"></a> 
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">
+            <p class="opensans font-014 justify" *ngIf="isFrench">
             Que ce soit pour la <strong>réparation</strong> d'une <strong>fondation</strong> d'une <strong>dalle</strong>, d'une <strong>fissure</strong> ou
             d'un <strong>escalier de béton</strong>, nous pouvons effectuer toutes sortes de <strong>réparations de béton</strong>. Il est important de la faire 
             réparer le plus rapidement possible afin d'éviter d'autres problèmes de plus grave.
+            </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench">Whether it's repairing a <strong>foundation</strong>, a <strong>slab</strong>, a <strong>crack</strong>, or
+                a <strong>concrete staircase</strong>, we can perform all kinds of <strong>concrete repairs</strong>. It is important to repair it as soon as possible to avoid more serious problems.
             </p>
         </div> 
     </div>

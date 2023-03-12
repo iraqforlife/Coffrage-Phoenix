@@ -16,7 +16,6 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   loading:boolean = false;
-  isFrench: boolean = true;
   constructor(private router: Router,
     private translate: TranslateService,) {
       // list of languages available
@@ -35,7 +34,6 @@ export class AppComponent {
       router.events.subscribe((routerEvent: Event) => {
         this.checkRouterEvent(routerEvent);
       });
-      this.isFrench = translate.currentLang == 'fr';
   }
   checkRouterEvent(routerEvent: Event): any {
     if (routerEvent instanceof NavigationStart) {
@@ -52,11 +50,12 @@ export class AppComponent {
   english() {
     localStorage.setItem('lang-chosen', 'en');
     this.translate.use('en');
-    this.isFrench = false;
   } 
   french() {
     localStorage.setItem('lang-chosen', 'fr');
     this.translate.use('fr');
-    this.isFrench = true;
+  }
+  get isFrench() {
+    return this.translate.currentLang == 'fr';
   }
 }

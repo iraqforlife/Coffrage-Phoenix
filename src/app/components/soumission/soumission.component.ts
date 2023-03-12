@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import {  TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-soumission',
@@ -7,11 +7,8 @@ import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
   styleUrls: ['./soumission.component.scss']
 })
 export class SoumissionComponent {
-  isFrench = true;
-  constructor(public translate: TranslateService){
-    this.isFrench = translate.currentLang == 'fr';
-    translate.onLangChange.subscribe((params: LangChangeEvent) => { 
-      this.isFrench = params.lang == 'fr';
-    });
+  constructor(public translate: TranslateService) {}
+  get isFrench() {
+    return this.translate.currentLang == 'fr';
   }
 }

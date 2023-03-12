@@ -26,16 +26,25 @@
     "realizations.h2":"ET COFFRAGES",
     "realizations.h3":"DE BÉTON",
     "realizations.p1":"Escaliers, trottoirs et balcons de béton",
-    "realizations.p2":"Descentes de sous-sol en béton",
     "realizations.p3":"Fondations pour agrandissement de maison",
     "realizations.p4":"Travaux de béton commerciaux",
     "realizations.p5":"Suivez nos dernières réalisations sur Instagram",
 
+    "home.h1":"FONDATIONS ET",
+    "home.h2":"COFFRAGES",
+    "home.h3":"Qualité et durabilité",
+    "home.h4":"avant tout!",
+    "home.p1":"Coffrage",
+    "home.p2":"Fondation",
+    "home.p3":"Descente de sous-sol",
+    "home.p4":"Agrandissement de maison",
+    "repair":"Réparation",
+
     "Dismiss":"Fermer",
     "Cancel":"Annuler", 
-    "Contact.Form":"fnuyt1e0",
     "home":"Acceuil",
     "realizations":"Réalisations",
     "socials":"Réseaux sociaux",
-    "quote":"Soumission"
+    "quote":"Soumission",
+    "QUOTE":"SOUMISSION"
 }

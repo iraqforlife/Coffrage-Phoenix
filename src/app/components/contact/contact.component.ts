@@ -1,5 +1,5 @@
-import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
-import { Component, Output } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -7,12 +7,8 @@ import { Component, Output } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent {
-  isFrench = true;
-  
-  constructor(public translate: TranslateService){
-    this.isFrench = translate.currentLang == 'fr';
-    translate.onLangChange.subscribe((params: LangChangeEvent) => { 
-      this.isFrench = params.lang == 'fr';
-    });
+  constructor(public translate: TranslateService) {}
+  get isFrench() {
+    return this.translate.currentLang == 'fr';
   }
 }
