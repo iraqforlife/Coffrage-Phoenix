@@ -1,4 +1,3 @@
-import { LanguageSelectorComponent } from './components/language-selector/language-selector.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { AppRoutingModule } from './app-routing.module';
 import { NgModule} from '@angular/core';
@@ -51,7 +50,6 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
     ContactComponent,
     RealisationsComponent,
     CommercialComponent,
-    LanguageSelectorComponent,
     ScrollTopComponent
   ],
   bootstrap: [
