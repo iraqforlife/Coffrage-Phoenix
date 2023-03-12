@@ -1,7 +1,50 @@
 {
-    "MODULE": {
-        "EXAMPLE": "exemple"
-    },
+    "concrete-foundation":"Fondation de béton",
+    "concrete-formwork":"Coffrage de béton",
+    "concrete-structure":"Structure de béton",
+    "concrete-crack":"Coffrage de crack",
+    "concrete-all":"Coffrage en tout genre",
+    "concrete-balcony":"Balcon de béton",
+    "concrete-staircase":"Escalier de béton",
+    "concrete-basement":"Descente extérieur pour sous-sol ",
+    "concrete-garage":"Planchers de garage",
+    "concrete-dalle":"Dalle de béton",
+    "concrete-repair":"Réparation de béton",
+    "towns":"Villes et régions",
+    "served":"desservies",
+    
+    "commercial.h1":"COMMERCIAL,",
+    "commercial.h2":"INSTITUTIONNEL",
+    "commercial.h3":"ET INDUSTRIEL",
+    "commercial.title":"Construction et coffrage commercial",
+    "commercial.p1":"La construction commerciale est beaucoup plus complexe que la construction résidentielle;que ce soit à cause des nombreuses réglementations des villes, des espaces de travail réduits et des contingences architecturales et autres imprévus. Il importe donc de confier vos exigences à des professionnels expérimentés dans ce genre de construction.",
+    "commercial.p2":"Coffrages Phoenix vous assure un partenariat de tous les instants afin de vous garantir des lieux commerciaux ou industriels agréables, fonctionnels et attrayants. De plus, nos équipes étant spécialisées dans ce genre de construction, vous serez assuré d’un respect précis de l’échéancier et du budget déterminé.",
+    "commercial.p3":"De l’analyse du terrain au design, en passant par le choix des matériaux, l’isolation, la climatisation et le chauffage, de la solidité et de l’étanchéité des fondations à la qualité et à la longévité de la toiture, en passant par la fenestration et l’économie d’énergie, nos spécialistes, toujours à l’affût des dernières technologies vous informeront complètement sur toutes les options et les techniques disponibles.",
+    "commercial.p4":"Faire affaires avec Coffrages Phoenix vous assure une tranquilité d’esprit sans pareil!",
+
+    "realizations.h1":"FONDATIONS",
+    "realizations.h2":"ET COFFRAGES",
+    "realizations.h3":"DE BÉTON",
+    "realizations.p1":"Escaliers, trottoirs et balcons de béton",
+    "realizations.p3":"Fondations pour agrandissement de maison",
+    "realizations.p4":"Travaux de béton commerciaux",
+    "realizations.p5":"Suivez nos dernières réalisations sur Instagram",
+
+    "home.h1":"FONDATIONS ET",
+    "home.h2":"COFFRAGES",
+    "home.h3":"Qualité et durabilité",
+    "home.h4":"avant tout!",
+    "home.p1":"Coffrage",
+    "home.p2":"Fondation",
+    "home.p3":"Descente de sous-sol",
+    "home.p4":"Agrandissement de maison",
+    "repair":"Réparation",
+
     "Dismiss":"Fermer",
-    "Cancel":"Annuler"
+    "Cancel":"Annuler", 
+    "home":"Acceuil",
+    "realizations":"Réalisations",
+    "socials":"Réseaux sociaux",
+    "quote":"Soumission",
+    "QUOTE":"SOUMISSION"
 }
