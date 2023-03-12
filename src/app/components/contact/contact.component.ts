@@ -1,5 +1,5 @@
-import { TranslateService } from '@ngx-translate/core';
-import { Component } from '@angular/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { Component, Output } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   isFrench = true;
+  
   constructor(public translate: TranslateService){
     this.isFrench = translate.currentLang == 'fr';
+    translate.onLangChange.subscribe((params: LangChangeEvent) => { 
+      this.isFrench = params.lang == 'fr';
+    });
   }
 }

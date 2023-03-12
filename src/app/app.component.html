@@ -6,10 +6,10 @@
             </div>
             <div class="alignright">
                 <div class="navfont-menu fonthover-03">
-                    <a [routerLink]="['/']">Acceuil</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/realisation']">Réalisations</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/realisation']">{{'realizations' | translate}}</a>&nbsp;&nbsp;&nbsp;
                     <a [routerLink]="['/commercial']">Commercial</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/soumission']">Soumission</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/soumission']">{{'quote' | translate}}</a>&nbsp;&nbsp;&nbsp;
                     <a [routerLink]="['/contact']">Contact</a>&nbsp;&nbsp;&nbsp;
                     <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>
                     <a (click)="french()" *ngIf="!isFrench" style="cursor: pointer;">French</a>
@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="reseaux-footer">
-                    <p class="opensans font-024 fonthover-04 bold"><span>Réseaux sociaux</span></p>
+                    <p class="opensans font-024 fonthover-04 bold"><span>{{'socials' | translate}}</span></p>
                     <a class="fonthover-02 reseau-button" href="https://www.facebook.com/coffragesphoenix/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a class="fonthover-02 reseau-button" href="https://www.instagram.com/coffragesphoenix/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
                     <a class="fonthover-02 reseau-button" href="https://twitter.com/CoffragePhoenix/" title="Twitter" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
@@ -66,17 +66,18 @@
                 <div>
                     <p class="opensans font-024 fonthover-04 bold"><span>Services</span></p>
                     <p class="opensans font-017 fonthover-04 lineheight-125">
-                        <span>Fondation de béton</span><br>      
-                        <span>Coffrage de béton</span><br>
-                        <span>Structure de béton</span><br>
-                        <span>Fissure de béton</span><br>
-                        <span>Coffrage en tout genre</span><br>
-                        <span>Balcon de béton</span><br>
-                        <span>Escalier de béton</span><br> 
-                        <span>Descente pour accès au sous-sol extérieur</span><br>
-                        <span>Planchers de garage</span><br>
-                        <span>Dalle de béton</span><br>
-                        <span>Réparation de béton</span><br>
+                        <span>{{'concrete-foundation' | translate}}</span><br>
+                        <span>{{'concrete-formwork' | translate}}</span><br>
+                        <span>{{'concrete-structure' | translate}}</span><br>
+                        <span>{{'concrete-crack' | translate}}</span><br>
+                        <span>{{'concrete-all' | translate}}</span><br>
+                        <span>{{'concrete-balcony' | translate}}</span><br>
+                        <span>{{'concrete-staircase' | translate}}</span><br>
+                        <span>{{'concrete-basement' | translate}}</span><br>
+                        <span>{{'concrete-garage' | translate}}</span><br>
+                        <span>{{'concrete-dalle' | translate}}</span><br>
+                        <span>{{'concrete-repair' | translate}}</span><br>
+                        <span>{{'concrete-foundation' | translate}}</span><br>
                         <span>Mini excavation</span><br>
                     </p>
                     <div class="footer-spacer-001"></div>
@@ -85,7 +86,7 @@
             
             <div class="alignleft">
                 <div>
-                    <p class="opensans font-024 fonthover-04 bold">Villes et régions<br>deservies</p>
+                    <p class="opensans font-024 fonthover-04 bold">{{'towns' | translate}} <br> {{'served' | translate}}</p>
                     <p class="opensans font-016 fonthover-04 lineheight-125">
                         <span>Blainville</span>, 
                         <span>Bois-des-Filion</span>,  

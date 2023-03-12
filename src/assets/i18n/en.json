@@ -2,7 +2,27 @@
     "MODULE": {
         "EXAMPLE": "example"
     },
+    "concrete-foundation":"Concrete foundation",
+    "concrete-formwork":"Concrete formwork",
+    "concrete-structure":"Concrete structure",
+    "concrete-crack":"Fissure de béton",
+    "concrete-all":"Formwork of all kinds",
+    "concrete-balcony":"Concrete balcony",
+    "concrete-staircase":"Concrete staircase",
+    "concrete-basement":"Exterior descent for basement",
+    "concrete-garage":"Garage floors",
+    "concrete-dalle":"Concrete slab",
+    "concrete-repair":"Concrete repair",
+    "towns":"Cities and regions",
+    "served":"served",
+
+
+
     "Dismiss":"Dismiss",
     "Cancel":"Cancel",
-    "Contact.Form":"3x3qvay5"
+    "Contact.Form":"3x3qvay5",
+    "home":"Home",
+    "realizations":"Realizations",
+    "socials":"Social Netowrk",
+    "quote":"Quote"
 }

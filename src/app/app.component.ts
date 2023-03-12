@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, } from '@angular/core';
 import { slideInAnimation } from './app.animation';
 import { 
   NavigationStart,
@@ -51,11 +51,12 @@ export class AppComponent {
   }
   english() {
     localStorage.setItem('lang-chosen', 'en');
-    window.location.reload();
-
+    this.translate.use('en');
+    this.isFrench = false;
   } 
   french() {
     localStorage.setItem('lang-chosen', 'fr');
-    window.location.reload();
+    this.translate.use('fr');
+    this.isFrench = true;
   }
 }

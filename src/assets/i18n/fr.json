@@ -2,7 +2,28 @@
     "MODULE": {
         "EXAMPLE": "exemple"
     },
+    "concrete-foundation":"Fondation de béton",
+    "concrete-formwork":"Coffrage de béton",
+    "concrete-structure":"Structure de béton",
+    "concrete-crack":"Coffrage de crack",
+    "concrete-all":"Coffrage en tout genre",
+    "concrete-balcony":"Balcon de béton",
+    "concrete-staircase":"Escalier de béton",
+    "concrete-basement":"Descente extérieur pour sous-sol ",
+    "concrete-garage":"Planchers de garage",
+    "concrete-dalle":"Dalle de béton",
+    "concrete-repair":"Réparation de béton",
+    "towns":"Villes et régions",
+    "served":"desservies",
+
+
+
+
     "Dismiss":"Fermer",
     "Cancel":"Annuler", 
-    "Contact.Form":"fnuyt1e0"
+    "Contact.Form":"fnuyt1e0",
+    "home":"Acceuil",
+    "realizations":"Réalisations",
+    "socials":"Réseaux sociaux",
+    "quote":"Soumission"
 }
