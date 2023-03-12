@@ -6,11 +6,13 @@
             </div>
             <div class="alignright">
                 <div class="navfont-menu fonthover-03">
-                    <a [routerLink]="['/']">ACCEUIL</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/realisation']">RÉALISATIONS</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/commercial']">COMMERCIAL</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/soumission']">SOUMISSION</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/contact']">CONTACT</a>
+                    <a [routerLink]="['/']">Acceuil</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/realisation']">Réalisations</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/commercial']">Commercial</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/soumission']">Soumission</a>&nbsp;&nbsp;&nbsp;
+                    <a [routerLink]="['/contact']">Contact</a>&nbsp;&nbsp;&nbsp;
+                    <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>
+                    <a (click)="french()" *ngIf="!isFrench" style="cursor: pointer;">French</a>
                 </div>
             </div>
         </div>
@@ -28,9 +30,9 @@
             <div class="alignleft">
                 <div class="contact-footer">
                     <p class="opensans font-024 fonthover-04 bold" ><span>Contact</span></p>
-                    <a class="fonthover-02 opensans font-018" href="https://goo.gl/maps/onLfca1AuNNfueGT9" target="_blank">
+                    <a class="fonthover-02 opensans font-018" href="https://goo.gl/maps/1Rt7NsX5vdQyU5Px9" target="_blank">
                         <i class="fa-solid fa-location-dot" style="padding-right: 25px;"></i>
-                        <span class="">4625 Chem. Gascon, Mascouche, QC J7K 3C2</span>
+                        <span class="">4635 Bd Laurier, Terrebonne, QC J6X 0B3</span>
                     </a>
                     <br>
                     <br>
@@ -44,7 +46,12 @@
                         <i class="fa-solid fa-envelope" style="padding-right: 25px;"></i>
                         <span class="">soumission@coffragesphoenix.com</span>
                     </a>
-
+                    <br>
+                    <br>
+                    <a class=" fonthover-02 opensans font-018">
+                        <i class="fa-solid fa-id-card" style="padding-right: 25px;"></i>
+                        <span>RBQ: 5801-4259-01</span>
+                    </a>
                 </div>
                 <div class="reseaux-footer">
                     <p class="opensans font-024 fonthover-04 bold"><span>Réseaux sociaux</span></p>
@@ -59,13 +66,18 @@
                 <div>
                     <p class="opensans font-024 fonthover-04 bold"><span>Services</span></p>
                     <p class="opensans font-017 fonthover-04 lineheight-125">
-                        <span>Balcon de béton</span><br>
-                        <span>Coffrage de béton</span><br>
-                        <span>Dalle de béton</span><br>
-                        <span>Escalier de béton</span><br> 
-                        <span>Fissure de béton</span><br>
                         <span>Fondation de béton</span><br>      
-                        <span>Réparation de béton</span>
+                        <span>Coffrage de béton</span><br>
+                        <span>Structure de béton</span><br>
+                        <span>Fissure de béton</span><br>
+                        <span>Coffrage en tout genre</span><br>
+                        <span>Balcon de béton</span><br>
+                        <span>Escalier de béton</span><br> 
+                        <span>Descente pour accès au sous-sol extérieur</span><br>
+                        <span>Planchers de garage</span><br>
+                        <span>Dalle de béton</span><br>
+                        <span>Réparation de béton</span><br>
+                        <span>Mini excavation</span><br>
                     </p>
                     <div class="footer-spacer-001"></div>
                 </div>
@@ -76,14 +88,11 @@
                     <p class="opensans font-024 fonthover-04 bold">Villes et régions<br>deservies</p>
                     <p class="opensans font-016 fonthover-04 lineheight-125">
                         <span>Blainville</span>, 
-                        <span>Bois-des-Fillion</span>,  
+                        <span>Bois-des-Filion</span>,  
                         <span>Chertsey</span>, 
-                        <span>Fontainebleau</span>,
                         <span>Joliette</span>,
                         <span>L'Assomption</span>,
                         <span>L'Épiphanie</span>,
-                        <span>Lachenaie</span>, 
-                        <span>La Plaine</span>, 
                         <span>Lac Écho</span>, 
                         <span>Lac Siesta</span>, 
                         <span>Laurentides</span>, 
@@ -110,7 +119,6 @@
                         <span>Terrebonne</span>
                     </p>
                 </div>
-                <app-language-selector></app-language-selector>
             </div>
         </div>
     </div>

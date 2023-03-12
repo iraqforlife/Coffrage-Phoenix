@@ -4,14 +4,8 @@
   "description": "Coffrage Phoenix",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
     "start": "ng serve --host=127.0.0.1",
-    "build": "ng build",
-    "prod": "ng build --configuration production --base-href https://iraqforlife.github.io/Coffrage-Phoenix/ --output-path docs",
-    "watch": "ng build --watch --configuration development",
-    "deploy": "ng deploy --base-href=/Coffrage-Phoenix",
-    "test": "ng test",
-    "e2e": "ng e2e"
+    "prod": "ng build --configuration production --base-href https://iraqforlife.github.io/Coffrage-Phoenix/ --output-path docs"
   },
   "private": true,
   "dependencies": {
