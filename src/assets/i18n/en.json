@@ -1,7 +1,4 @@
 {
-    "MODULE": {
-        "EXAMPLE": "example"
-    },
     "concrete-foundation":"Concrete foundation",
     "concrete-formwork":"Concrete formwork",
     "concrete-structure":"Concrete structure",
@@ -16,7 +13,14 @@
     "towns":"Cities and regions",
     "served":"served",
 
-
+    "commercial.h1":"COMMERCIAL,",
+    "commercial.h2":"INSTITUTIONAL",
+    "commercial.h3":"AND INDUSTRIAL",
+    "commercial.title":"Commercial construction and formwork",
+    "commercial.p1":"Commercial construction is much more complex than residential construction, due to numerous city regulations, limited workspaces, and architectural contingencies, among other unforeseen circumstances. It is therefore important to entrust your requirements to experienced professionals in this type of construction.",
+    "commercial.p2":"Coffrages Phoenix assures you of a constant partnership to guarantee you pleasant, functional, and attractive commercial or industrial premises. Moreover, as our teams are specialized in this type of construction, you can be assured of precise adherence to the determined schedule and budget.",
+    "commercial.p3":"From land analysis to design, including material selection, insulation, air conditioning, and heating, from the strength and waterproofing of foundations to the quality and longevity of the roof, as well as window installation and energy efficiency, our specialists, always on the lookout for the latest technologies, will provide you with complete information on all available options and techniques.",
+    "commercial.p4":"Doing business with Coffrages Phoenix ensures unparalleled peace of mind!",
 
     "Dismiss":"Dismiss",
     "Cancel":"Cancel",
