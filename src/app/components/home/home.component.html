@@ -1,4 +1,3 @@
-
 <div class="slider">
     <div class="absolute container-91pct top-050px left-003pct">
         <p class="bebasneue specialfont-02 color-01">{{'home.h1'|translate}}<br>{{'home.h2'|translate}}</p>
@@ -20,10 +19,15 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p1'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/coffrage-de-beton.jpg" alt="Coffrage de béton">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">
-                Que ce soit pour un <strong>escalier</strong>, une <strong>dalle</strong>, une <strong>fondation</strong> ou un <strong>agrandissement</strong>, 
-                nous sommes spécialisés en travaux de <strong>coffrage de béton</strong> dans les secteurs résidentiel et commercial.
+            <p class="opensans font-014 justify" *ngIf="isFrench">Nos <strong>spécialistes expérimentés</strong> offrent une gamme de solutions
+                de <strong>coffrage en béton</strong> pour répondre à tous <strong>vos besoins de construction</strong>. Nous travaillons avec différents types de <strong>coffrages</strong>
+                et nous pouvons <strong>vous aider à choisir la solution la plus adaptée pour votre projet</strong>. Avec notre expertise et
+                notre équipement de pointe, vous pouvez être assuré que votre projet sera entre de bonnes mains et que vous obtiendrez
+                <strong>des résultats durables et esthétiquement satisfaisants</strong>.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench">Our <strong>experienced specialists</strong> offer a range of
+                <strong>concrete formwork</strong> solutions to meet all <strong>your construction needs</strong>. We work with different types of
+                <strong>formwork</strong> and can <strong>help you choose the most suitable solution for your project</strong>. With our expertise and advanced equipment, you can be assured that your project is in good hands and that you will achieve durable and aesthetically satisfying results. </p>
             <div class="spacer-002"></div>
         </div> 
         <div></div>  
@@ -31,12 +35,13 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p2'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/fondation.jpg" alt="Fondation de béton">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">Les fondations en béton sont un élément <strong>crucial</strong> pour tout bâtiment,
+            <p class="opensans font-014 justify" *ngIf="isFrench">Les fondations en béton sont un élément <strong>crucial</strong> pour tout bâtiment,
                 car elles supportent la charge de la structure entière. Le béton est un matériau de construction <strong>solide et durable</strong>
                 qui peut résister aux intempéries et aux tremblements de terre. Les fondations en béton peuvent être construites en différentes formes
                 et tailles pour s'adapter <strong>aux besoins spécifiques de la structure</strong>, ce qui en fait un choix <strong>polyvalent</strong>
                 pour les projets de construction.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
             <div class="spacer-002"></div>
         </div>  
         <div></div>  
@@ -44,10 +49,11 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-staircase'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/escalier-de-beton.jpg" alt="Escalier de béton">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">
+            <p class="opensans font-014 justify" *ngIf="isFrench">
             L'une des choses les plus importantes lors de la fabrication d'un <strong>escalier de béton</strong> est le <strong>coffrage</strong>. 
             Un <strong>coffrage</strong> bien fait et l'utilisation d'une bonne qualité de béton assureront une solidité à toutes épreuves.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
         </div>         
     </div>
     <div class="spacer-003"></div>
@@ -56,11 +62,12 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-balcony'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/balcon-de-beton.jpg" alt="Balcon de béton">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">Les balcons en béton sont populaires pour leur <strong>durabilité</strong>, leur <strong>solidité</strong>
+            <p class="opensans font-014 justify" *ngIf="isFrench">Les balcons en béton sont populaires pour leur <strong>durabilité</strong>, leur <strong>solidité</strong>
                 et leur capacité à <strong>résister aux intempéries</strong>. Le béton est un matériau de construction résistant qui peut être moulé
                 en une <strong>variété de formes</strong> et de designs pour s'adapter à tous les styles de maison. De plus, les balcons en béton sont
                 <strong>faciles à entretenir</strong> et nécessitent <strong>peu de réparations</strong>, ce qui les rend pratiques pour les propriétaires à long terme.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
             <div class="spacer-002"></div>
         </div> 
         <div></div>  
@@ -68,11 +75,12 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'home.p3'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/descente-de-sous-sol-en-beton_003.png" alt="Réparation de fissure">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">
+            <p class="opensans font-014 justify" *ngIf="isFrench">
                 Lors de l'ajout d'une descente ou d'un accès au <strong>sous-sol</strong> de votre propriété,
                 il est important de faire appel à des <strong>professionnels</strong> qualifiés pour planifier et installer votre <strong>descente en béton</strong>.
                 Le béton est durable, résistant et facile à entretenir, ce qui le rend idéal pour les entrées de sous-sol utilisées régulièrement.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
             <div class="spacer-002"></div>
         </div>  
         <div></div>  
@@ -81,12 +89,13 @@
             <img class="imagehover-02 border-01px" src="./assets/img/agrandissement.jpg" alt="Réparation de béton">
             <a name="soumission"></a> 
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">
+            <p class="opensans font-014 justify" *ngIf="isFrench">
                 Lorsque vous agrandissez votre maison, choisissez des matériaux de construction <strong>durables et solides</strong> pour la nouvelle structure.
                 Le béton est un choix populaire en raison de sa résistance et de sa polyvalence.
                 Il peut être utilisé pour les murs porteurs, les fondations et les dalles de plancher,
                 ce qui en fait un <strong>choix idéal</strong> pour les agrandissements de maison.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
         </div> 
     </div>
     <div class="spacer-003"></div>
@@ -95,12 +104,13 @@
             <p class="opensans font-024 fonthover-05 bold"><span>{{'concrete-dalle'|translate}}</span></p>
             <img class="imagehover-02 border-01px" src="./assets/img/dalle.jpg" alt="Balcon de béton">
             <div class="spacer-010px"></div>
-            <p class="opensans font-014 justify">Les dalles de béton sont utilisées pour une variété de projets de construction,
+            <p class="opensans font-014 justify" *ngIf="isFrench">Les dalles de béton sont utilisées pour une variété de projets de construction,
                 notamment les allées, les terrasses et les trottoirs. Le béton est un matériau de construction <strong>durable</strong>,
                 résistant et <strong>facile à entretenir</strong>, ce qui en fait un choix populaire pour les dalles.
                 Les dalles de béton peuvent être personnalisées en utilisant différentes finitions,
                 couleurs et textures pour correspondre à <strong>votre style</strong> et à <strong>vos préférences esthétiques</strong>.
             </p>
+            <p class="opensans font-014 justify" *ngIf="!isFrench"> </p>
             <div class="spacer-002"></div>
         </div> 
         <div></div>  
