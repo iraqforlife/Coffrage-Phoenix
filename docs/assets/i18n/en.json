@@ -1,15 +1,15 @@
 {
-    "concrete-foundation":"Concrete foundation",
-    "concrete-formwork":"Concrete formwork",
-    "concrete-structure":"Concrete structure",
-    "concrete-crack":"Fissure de béton",
+    "concrete-foundation":"Concrete foundations",
+    "concrete-formwork":"Concrete formworks",
+    "concrete-structure":"Concrete structures",
+    "concrete-crack":"Concrete cracks",
     "concrete-all":"Formwork of all kinds",
-    "concrete-balcony":"Concrete balcony",
-    "concrete-staircase":"Concrete staircase",
-    "concrete-basement":"Exterior descent for basement",
+    "concrete-balcony":"Concrete balconies",
+    "concrete-staircase":"Concrete staircases",
+    "concrete-basement":"Exterior descents for basement",
     "concrete-garage":"Garage floors",
-    "concrete-dalle":"Concrete slab",
-    "concrete-repair":"Concrete repair",
+    "concrete-dalle":"Concrete slabs",
+    "concrete-repair":"Concrete repairs",
     "towns":"Cities and regions",
     "served":"served",
 
@@ -17,7 +17,7 @@
     "commercial.h2":"INSTITUTIONAL",
     "commercial.h3":"AND INDUSTRIAL",
     "commercial.title":"Commercial construction and formwork",
-    "commercial.p1":"Commercial construction is much more complex than residential construction, due to numerous city regulations, limited workspaces, and architectural contingencies, among other unforeseen circumstances. It is therefore important to entrust your requirements to experienced professionals in this type of construction.",
+    "commercial.p1":"Commercial construction is much more complex than residential construction due to numerous city regulations, limited workspaces, and architectural contingencies, among other unforeseen circumstances. It is therefore important to entrust your requirements to experienced professionals in this type of construction.",
     "commercial.p2":"Coffrages Phoenix assures you of a constant partnership to guarantee you pleasant, functional, and attractive commercial or industrial premises. Moreover, as our teams are specialized in this type of construction, you can be assured of precise adherence to the determined schedule and budget.",
     "commercial.p3":"From land analysis to design, including material selection, insulation, air conditioning, and heating, from the strength and waterproofing of foundations to the quality and longevity of the roof, as well as window installation and energy efficiency, our specialists, always on the lookout for the latest technologies, will provide you with complete information on all available options and techniques.",
     "commercial.p4":"Doing business with Coffrages Phoenix ensures unparalleled peace of mind!",
@@ -46,5 +46,10 @@
     "realizations":"Realizations",
     "socials":"Social Netowrk",
     "quote":"Quote",
-    "QUOTE":"QUOTE"
+    "QUOTE":"QUOTE",
+
+    "joinUs":"JOIN US AND",
+    "stayUpToDate":"STAY UP TO DATE",
+    "email":"Email",
+    "phone":"Phone"
 }
