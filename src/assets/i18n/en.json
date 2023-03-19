@@ -46,5 +46,10 @@
     "realizations":"Realizations",
     "socials":"Social Netowrk",
     "quote":"Quote",
-    "QUOTE":"QUOTE"
+    "QUOTE":"QUOTE",
+
+    "joinUs":"JOIN US AND",
+    "stayUpToDate":"STAY UP TO DATE",
+    "email":"Email",
+    "phone":"Phone"
 }
