@@ -1,128 +1,157 @@
-<header>
-    <nav class="backgroundcolor-white">
-        <div class="header-menu">
-            <div>
-                <a [routerLink]="['/']"><img class="header-logo imagehover-01" src="./assets/img/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
-            </div>
-            <div class="alignright">
-                <div class="navfont-menu fonthover-03">
-                    <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/realisation']">{{'realizations' | translate}}</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/commercial']">Commercial</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/soumission']">{{'quote' | translate}}</a>&nbsp;&nbsp;&nbsp;
-                    <a [routerLink]="['/contact']">Contact</a>&nbsp;&nbsp;&nbsp;
-                    <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>
-                    <a (click)="french()" *ngIf="!isFrench" style="cursor: pointer;">French</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-</header>
-<mat-spinner class="center-spinner" *ngIf="loading"></mat-spinner>
 
-<div [@slideInAnimation]="o.isActivated ? o.activatedRoute : ''" class="container">
-    <router-outlet #o="outlet"></router-outlet>
-</div>
-<footer>
-    <div class="backgroundcolor-04">
-        <div class="spacer-010px"></div>
-        <div class="container-95pct columns-03-333333-02 padding-050px">
-            <div class="alignleft">
-                <div class="contact-footer">
-                    <p class="opensans font-024 fonthover-04 bold" ><span>Contact</span></p>
-                    <a class="fonthover-02 opensans font-018" href="https://goo.gl/maps/1Rt7NsX5vdQyU5Px9" target="_blank">
-                        <i class="fa-solid fa-location-dot" style="padding-right: 25px;"></i>
-                        <span class="">4635 Boulevard Laurier, Terrebonne, QC J6X 0B3</span>
-                    </a>
-                    <br>
-                    <br>
-                    <a class="fonthover-02 opensans font-018" href="tel:5144442822" target="_blank">
-                        <i class="fa-solid fa-phone" style="padding-right: 25px;"></i>
-                        <span class=""><a>(514) 444-2822</a></span>
-                    </a>
-                    <br>
-                    <br>
-                    <a class="fonthover-02 opensans font-018" href="mailto:soumission@coffragesphoenix.com" target="_blank">
-                        <i class="fa-solid fa-envelope" style="padding-right: 25px;"></i>
-                        <span class="">soumission@coffragesphoenix.com</span>
-                    </a>
-                    <br>
-                    <br>
-                    <a class=" fonthover-02 opensans font-018">
-                        <i class="fa-solid fa-id-card" style="padding-right: 25px;"></i>
-                        <span>RBQ: 5801-4259-01</span>
-                    </a>
-                </div>
-                <div class="reseaux-footer">
-                    <p class="opensans font-024 fonthover-04 bold"><span>{{'socials' | translate}}</span></p>
-                    <a class="fonthover-02 reseau-button" href="https://www.facebook.com/coffragesphoenix/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a class="fonthover-02 reseau-button" href="https://www.instagram.com/coffragesphoenix/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-                    <a class="fonthover-02 reseau-button" href="https://twitter.com/CoffragePhoenix/" title="Twitter" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
-                </div>
-                <div class="footer-spacer-001"></div>
+<mat-drawer-container class="example-container" >
+    <mat-drawer #drawer position="end" >
+        <div class="mobile-nav">
+            <div style="margin: 20px">
+                <a [routerLink]="['/']" (click)="drawer.toggle()"><img class="" src="./assets/img/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
             </div>
-            
-            <div class="alignleft">
-                <div>
-                    <p class="opensans font-024 fonthover-04 bold"><span>Services</span></p>
-                    <p class="opensans font-017 fonthover-04 lineheight-125">
-                        <span>{{'concrete-foundation' | translate}}</span><br>
-                        <span>{{'concrete-formwork' | translate}}</span><br>
-                        <span>{{'concrete-structure' | translate}}</span><br>
-                        <span>{{'concrete-crack' | translate}}</span><br>
-                        <span>{{'concrete-all' | translate}}</span><br>
-                        <span>{{'concrete-balcony' | translate}}</span><br>
-                        <span>{{'concrete-staircase' | translate}}</span><br>
-                        <span>{{'concrete-basement' | translate}}</span><br>
-                        <span>{{'concrete-garage' | translate}}</span><br>
-                        <span>{{'concrete-dalle' | translate}}</span><br>
-                        <span>{{'concrete-repair' | translate}}</span><br>
-                        <span>{{'concrete-foundation' | translate}}</span><br>
-                        <span>Mini excavation</span><br>
-                    </p>
-                    <div class="footer-spacer-001"></div>
-                </div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/']" (click)="drawer.toggle()">{{'home' | translate}}</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/realisation']" (click)="drawer.toggle()">{{'realizations' | translate}}</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/commercial']" (click)="drawer.toggle()">Commercial</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/soumission']" (click)="drawer.toggle()">{{'quote' | translate}}</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/contact']" (click)="drawer.toggle()">Contact</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div>
+                <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>
+                <a (click)="french()" *ngIf="!isFrench" style="cursor: pointer;">Français</a>
             </div>
-            
-            <div class="alignleft">
-                <div>
-                    <p class="opensans font-024 fonthover-04 bold">{{'towns' | translate}} <br> {{'served' | translate}}</p>
-                    <p class="opensans font-016 fonthover-04 lineheight-125">
-                        <span>Blainville</span>, 
-                        <span>Bois-des-Filion</span>,  
-                        <span>Chertsey</span>, 
-                        <span>Joliette</span>,
-                        <span>L'Assomption</span>,
-                        <span>L'Épiphanie</span>,
-                        <span>Lac Écho</span>, 
-                        <span>Lac Siesta</span>, 
-                        <span>Laurentides</span>, 
-                        <span>Laval</span>, 
-                        <span>Lorraine</span>, 
-                        <span>Mascouche</span>,
-                        <span>Montréal</span>,
-                        <span>Rawdon</span>,
-                        <span>Repentigny</span>,  
-                        <span>Rive-Nord</span>, 
-                        <span>Rosemère</span>,
-                        <span>Saint-Alexis</span>,
-                        <span>Saint-Calixte</span>, 
-                        <span>Saint-Esprit</span>,
-                        <span>Saint-Eustache</span>,
-                        <span>Saint-Hippolyte</span>, 
-                        <span>Saint-Jacques</span>, 
-                        <span>Saint-Jérôme</span>, 
-                        <span>Saint-Lin</span>, 
-                        <span>Saint-Roch-de-L'Achigan</span>,  
-                        <span>Sainte-Anne-des-Plaines</span>, 
-                        <span>Sainte-Julienne</span>,
-                        <span>Sainte-Sophie</span>, 
-                        <span>Sainte-Thérèse</span>,   
-                        <span>Terrebonne</span>
-                    </p>
-                </div>
-            </div>
+            <button mat-button style="color: black; background-color: white;font-size: 45px;margin-top: 350px;" (click)="drawer.toggle()"><i class="fa-solid fa-x"></i></button>
         </div>
-    </div>
-</footer>
-<app-scroll-top></app-scroll-top>
+    </mat-drawer>
+    <mat-drawer-content style="background-color: white;color:black" from>
+        <header>
+            <nav class="backgroundcolor-white">
+                <div class="header-menu">
+                    <div style="display: flex;">
+                        <a [routerLink]="['/']"><img class="header-logo imagehover-01" src="./assets/img/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
+                        <button class="mobile-nav-toggle" mat-button (click)="drawer.toggle()"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                    <div class="alignright">
+                        <div class="navfont-menu fonthover-03">
+                            <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
+                            <a [routerLink]="['/realisation']">{{'realizations' | translate}}</a>&nbsp;&nbsp;&nbsp;
+                            <a [routerLink]="['/commercial']">Commercial</a>&nbsp;&nbsp;&nbsp;
+                            <a [routerLink]="['/soumission']">{{'quote' | translate}}</a>&nbsp;&nbsp;&nbsp;
+                            <a [routerLink]="['/contact']">Contact</a>&nbsp;&nbsp;&nbsp;
+                            <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>
+                            <a (click)="french()" *ngIf="!isFrench" style="cursor: pointer;">French</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <mat-spinner class="center-spinner" *ngIf="loading"></mat-spinner>
+
+        <div [@slideInAnimation]="o.isActivated ? o.activatedRoute : ''" class="container">
+            <router-outlet #o="outlet"></router-outlet>
+        </div>
+        <footer>
+            <div class="backgroundcolor-04">
+                <div class="spacer-010px"></div>
+                <div class="container-95pct columns-03-333333-02 padding-050px">
+                    <div class="alignleft">
+                        <div class="contact-footer">
+                            <p class="opensans font-024 fonthover-04 bold" ><span>Contact</span></p>
+                            <a class="fonthover-02 opensans font-018" href="https://goo.gl/maps/1Rt7NsX5vdQyU5Px9" target="_blank">
+                                <i class="fa-solid fa-location-dot" style="padding-right: 25px;"></i>
+                                <span class="">4635 Boulevard Laurier, Terrebonne, QC J6X 0B3</span>
+                            </a>
+                            <br>
+                            <br>
+                            <a class="fonthover-02 opensans font-018" href="tel:5144442822" target="_blank">
+                                <i class="fa-solid fa-phone" style="padding-right: 25px;"></i>
+                                <span class=""><a>(514) 444-2822</a></span>
+                            </a>
+                            <br>
+                            <br>
+                            <a class="fonthover-02 opensans font-018" href="mailto:soumission@coffragesphoenix.com" target="_blank">
+                                <i class="fa-solid fa-envelope" style="padding-right: 25px;"></i>
+                                <span class="">soumission@coffragesphoenix.com</span>
+                            </a>
+                            <br>
+                            <br>
+                            <a class=" fonthover-02 opensans font-018">
+                                <i class="fa-solid fa-id-card" style="padding-right: 25px;"></i>
+                                <span>RBQ: 5801-4259-01</span>
+                            </a>
+                        </div>
+                        <div class="reseaux-footer">
+                            <p class="opensans font-024 fonthover-04 bold"><span>{{'socials' | translate}}</span></p>
+                            <a class="fonthover-02 reseau-button" href="https://www.facebook.com/coffragesphoenix/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="fonthover-02 reseau-button" href="https://www.instagram.com/coffragesphoenix/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                            <a class="fonthover-02 reseau-button" href="https://twitter.com/CoffragePhoenix/" title="Twitter" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="footer-spacer-001"></div>
+                    </div>
+                    
+                    <div class="alignleft">
+                        <div>
+                            <p class="opensans font-024 fonthover-04 bold"><span>Services</span></p>
+                            <p class="opensans font-017 fonthover-04 lineheight-125">
+                                <span>{{'concrete-foundation' | translate}}</span><br>
+                                <span>{{'concrete-formwork' | translate}}</span><br>
+                                <span>{{'concrete-structure' | translate}}</span><br>
+                                <span>{{'concrete-crack' | translate}}</span><br>
+                                <span>{{'concrete-all' | translate}}</span><br>
+                                <span>{{'concrete-balcony' | translate}}</span><br>
+                                <span>{{'concrete-staircase' | translate}}</span><br>
+                                <span>{{'concrete-basement' | translate}}</span><br>
+                                <span>{{'concrete-garage' | translate}}</span><br>
+                                <span>{{'concrete-dalle' | translate}}</span><br>
+                                <span>{{'concrete-repair' | translate}}</span><br>
+                                <span>{{'concrete-foundation' | translate}}</span><br>
+                                <span>Mini excavation</span><br>
+                            </p>
+                            <div class="footer-spacer-001"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="alignleft">
+                        <div>
+                            <p class="opensans font-024 fonthover-04 bold">{{'towns' | translate}} <br> {{'served' | translate}}</p>
+                            <p class="opensans font-016 fonthover-04 lineheight-125">
+                                <span>Blainville</span>, 
+                                <span>Bois-des-Filion</span>,  
+                                <span>Chertsey</span>, 
+                                <span>Joliette</span>,
+                                <span>L'Assomption</span>,
+                                <span>L'Épiphanie</span>,
+                                <span>Lac Écho</span>, 
+                                <span>Lac Siesta</span>, 
+                                <span>Laurentides</span>, 
+                                <span>Laval</span>, 
+                                <span>Lorraine</span>, 
+                                <span>Mascouche</span>,
+                                <span>Montréal</span>,
+                                <span>Rawdon</span>,
+                                <span>Repentigny</span>,  
+                                <span>Rive-Nord</span>, 
+                                <span>Rosemère</span>,
+                                <span>Saint-Alexis</span>,
+                                <span>Saint-Calixte</span>, 
+                                <span>Saint-Esprit</span>,
+                                <span>Saint-Eustache</span>,
+                                <span>Saint-Hippolyte</span>, 
+                                <span>Saint-Jacques</span>, 
+                                <span>Saint-Jérôme</span>, 
+                                <span>Saint-Lin</span>, 
+                                <span>Saint-Roch-de-L'Achigan</span>,  
+                                <span>Sainte-Anne-des-Plaines</span>, 
+                                <span>Sainte-Julienne</span>,
+                                <span>Sainte-Sophie</span>, 
+                                <span>Sainte-Thérèse</span>,   
+                                <span>Terrebonne</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <app-scroll-top></app-scroll-top>
+</mat-drawer-content>
+</mat-drawer-container>
