@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ng serve --host=127.0.0.1",
-    "prod": "ng build --configuration production --base-href https://lesentreprisesasra.ca/ --output-path docs"
+    "prod": "ng build --configuration production --base-href / --output-path docs"
   },
   "private": true,
   "dependencies": {
