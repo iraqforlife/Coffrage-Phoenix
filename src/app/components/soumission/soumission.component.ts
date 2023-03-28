@@ -4,7 +4,6 @@ import {  TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-soumission',
   templateUrl: './soumission.component.html',
-  styleUrls: ['./soumission.component.scss']
 })
 export class SoumissionComponent {
   constructor(public translate: TranslateService) {}

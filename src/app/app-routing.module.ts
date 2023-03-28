@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { SoumissionComponent } from './components/soumission/soumission.component';
 import { SelectiveStrategy } from './services/selective.strategy';
+import { AboutComponent } from './components/about/about.component';
 
 
 const routes: Routes = [
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path:'contact',
     component: ContactComponent
+  },
+  {
+    path:'about',
+    component: AboutComponent
   },
   {
     path:'**',
