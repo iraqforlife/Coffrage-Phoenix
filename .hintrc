@@ -12,6 +12,7 @@
         "link-name": "off"
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "detect-css-reflows/layout": "off"
   }
 }
