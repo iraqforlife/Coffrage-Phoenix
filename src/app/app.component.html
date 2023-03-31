@@ -12,6 +12,8 @@
             <mat-divider style="border-top-color:lightgray;"></mat-divider>
             <div><a [routerLink]="['/commercial']" (click)="drawer.toggle()">Commercial</a></div>
             <mat-divider style="border-top-color:lightgray;"></mat-divider>
+            <div><a [routerLink]="['/about']" (click)="drawer.toggle()">{{'Company' | translate}}</a></div>
+            <mat-divider style="border-top-color:lightgray;"></mat-divider>
             <div><a [routerLink]="['/soumission']" (click)="drawer.toggle()">{{'quote' | translate}}</a></div>
             <mat-divider style="border-top-color:lightgray;"></mat-divider>
             <div><a [routerLink]="['/contact']" (click)="drawer.toggle()">Contact</a></div>
@@ -36,6 +38,7 @@
                             <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/realisation']">{{'realizations' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/commercial']">Commercial</a>&nbsp;&nbsp;&nbsp;
+                            <a [routerLink]="['/about']">{{'Company' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/soumission']">{{'quote' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/contact']">Contact</a>&nbsp;&nbsp;&nbsp;
                             <a (click)="english()" *ngIf="isFrench" style="cursor: pointer;">English</a>

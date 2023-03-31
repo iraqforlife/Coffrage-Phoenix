@@ -35,7 +35,6 @@ h2 {
         max-width: 940px;
         grid-template-columns: auto auto;
     }
-    
 }
 
 @media only screen and (max-width: 768px) {
@@ -56,41 +55,45 @@ h2 {
         display: grid; grid-template-columns: 33.333% 33.333% 33.333%;
     }
 }
-.reviews-box-img {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    min-height: 208px !important;
-}
-.reviews-box {
-    color: #000;
-    padding: 32px;
-    text-align: center;
-    @media (max-width: 959px) {
-        padding: 24px;
-    }
-}
 .reviews {
     margin: 15px auto;
     display: grid;
 
+    @media only screen and (max-width: 495px) {
+        & h2 {
+            font-size: 25px !important;
+        }
+    }
     @media only screen and (max-width: 767px) {
-        max-width: 700px!important;
         padding-left: 33px!important;
         padding-right: 33px!important;
+        
+        & h2 {
+            font-size: 35px;
+        }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        max-width: 708px;
+        & h2 {
+            font-size: 45px;
+        }
     }
-    @media only screen and (min-width: 960px) and (max-width: 1239px) {
-        max-width: 940px;
+    &-box {
+        color: #000;
+        padding: 32px;
+        text-align: center;
+        @media (max-width: 959px) {
+            padding: 24px;
+        }
     }
-    @media only screen and (min-width: 1240px) {
-        max-width: 1220px;
+    &-box-img {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        min-height: 208px !important;
     }
 }
-.review-img-wrapper{
+.review-img-wrapper {
     width: 100px;
     height: 100px;
     margin-bottom: 32px;
@@ -110,21 +113,35 @@ h2 {
     align-items: center;
     text-align: center;
     @media only screen and (max-width: 767px) {
-        max-width: 700px!important;
         padding-left: 33px!important;
         padding-right: 33px!important;
         display: block;
+        
+        &-header h2 {
+            font-size: 45px !important;
+        }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        max-width: 708px;
         grid-template-columns: 50% 50% !important;
     }
-    @media only screen and (min-width: 960px) and (max-width: 1239px) {
-        max-width: 940px;
+
+    & h5 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+        letter-spacing: 0px;
     }
-    @media only screen and (min-width: 1240px) {
-        max-width: 1220px;
+    & i {
+        margin-bottom: 24px;
+        vertical-align: middle;
+        font-size: 60px;
+        color: #ca8f65;
+    }
+    &-header {
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
 .value {
@@ -138,7 +155,6 @@ h2 {
     }
     
     @media only screen and (min-width: 960px) and (max-width: 1239px) {
-        max-width: 940px;
         min-height: 400px !important;
     }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -148,16 +164,64 @@ h2 {
         min-height: 280px;
     }
 }
-.values h5 {
-    margin-bottom: 15px;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 500;
-    letter-spacing: 0px;
+.about {
+    margin: 15px auto;
+
+    @media only screen and (max-width: 767px) {
+        max-width: 700px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        max-width: 708px;
+    }
+    @media only screen and (min-width: 960px) and (max-width: 1239px) {
+        max-width: 940px;
+    }
+    @media only screen and (min-width: 1240px) {
+        max-width: 1220px;
+    }
 }
-.values i {
-    margin-bottom: 24px;
-    vertical-align: middle;
-    font-size: 60px;
-    color: #ca8f65;
+.desc {
+    margin: 40px 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    &-text {
+        margin: 30px;
+        & h3 {
+            font-size: 45px;
+        }
+        & h4 {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 450;
+        }
+    }
+    &-img {
+        margin-right: 5%;
+        & img {
+            border-radius: 64px;
+            border:1px solid #ca8f65;
+        }
+    }
+    @media only screen and (min-width: 960px) and (max-width: 1239px) {
+        &-text {
+            margin-top: 0;
+        }
+    }
+
+    @media only screen and (max-width: 959px) {
+        display: block;
+        align-items: center;
+        &-img {
+            margin: 30px;
+        }
+    }
+    @media only screen and (max-width: 959px) {
+        & h3 {
+            font-size: 35px;
+        }
+        & h4 {
+            font-size: 17px;
+        }
+    }
 }

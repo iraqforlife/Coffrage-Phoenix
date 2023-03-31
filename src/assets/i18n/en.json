@@ -53,11 +53,22 @@
     "email":"Email",
     "phone":"Phone",
     "our-values":"Our values",
-    "Quality":"Qualité",
+    "Quality":"Quality",
     "Quality.p":"We are committed to providing our customers with superior quality products and services by using first-rate materials and rigorously monitoring production processes.",
-    "Trust":"Confiance",
+    "Trust":"Trust",
     "Trust.p":"We build trust with our customers by being transparent in our communications and activities and by honoring our commitments.",
-    "Integrity":"Intégrité",
+    "Integrity":"Integrity",
     "Integrity.p":"We are committed to acting with integrity in all our activities by adhering to ethical standards and applicable laws.",
-    "Innovation.p":"We constantly strive to innovate by adopting cutting-edge techniques and technologies to improve the quality of our products and services."
+    "Innovation.p":"We constantly strive to innovate by adopting cutting-edge techniques and technologies to improve the quality of our products and services.",
+    "desc.p1":"Coffrage Phoenix is a company specialized in formwork and excavations in the Laurentians, Lanaudière, Montreal, and the North Shore of Montreal. We are a member of the Quebec Building Board.",
+    "desc.p2":"Coffrage Phoenix specializes in concrete installations to meet the needs and expectations of our target clientele. We offer services such as formwork, concrete stairs, concrete slabs, concrete balconies, foundations, concrete repairs, as well as home and basement expansions. We strive to provide quality installations that meet the needs of our clients and exceed their expectations.",
+    "about-us":"About us",
+    "desc.p3":"Our vision is to be the leader in formwork in Quebec by offering innovative and high-quality solutions to meet the needs of our clients, while mobilizing and inspiring our employees to achieve our common goal.",
+    "desc.p4":"Our story began with the desire to take over an existing business and propel it to new heights. After purchasing its assets, our goal was to grow this company by operating efficiently and expanding it. Our ambition for our first year of operation is to stabilize operations, establish strong partnerships, and lay the foundations for long-term growth. We are excited to see the fruits of our efforts and contribute to the economic vitality of the region.",
+    "reviews.s1":"What are customers saying",
+    "reviews.s2":"about our work?",
+    "team.p":"I've always been entrepreneurial as well; I enjoy coming up with novel concepts and figuring out how to make them a reality. Additionally, I have a strong interest in the field of building, especially in regards to cutting-edge technologies and environmentally friendly procedures. I am eager to add to this endeavour by fusing my expertise in software engineering with my love of entrepreneurship and building because I strongly believe that the construction sector can play a significant part in determining a better future for our world. I am eager to investigate different avenues for having a beneficial influence on the sector, whether it be by creating software solutions to increase the effectiveness and sustainability of building processes or by starting my own construction company.",
+    "team.h":"I would like to tell you a little bit about myself. I am a young Iraqi immigrant with a degree in software engineering.Technology has always been a big passion of mine and I have always been fascinated by how it can be used to solve complex problems and make our lives easier.",
+    "Company": "Company"
+    
 }
