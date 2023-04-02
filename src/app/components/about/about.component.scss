@@ -1,3 +1,4 @@
+
 .image_wrapper {
     text-align: center;
     margin-left: auto;
@@ -11,7 +12,7 @@ h3 {
     font-family: "Big Shoulders Display",Helvetica,Arial,sans-serif;
     margin-bottom: 15px;
     vertical-align: baseline;
-    color: #ca8f65;
+    color: var(--primatyColor);
 }
 h2 {
     font-family: "Space Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -19,7 +20,7 @@ h2 {
     line-height: 60px;
     font-weight: 500;
     letter-spacing: 0px;
-    color: #ca8f65;
+    color: var(--primatyColor);
 }
 .team {
     margin: 15px auto;
@@ -29,11 +30,25 @@ h2 {
         max-width: 550px ;
         padding-left: 33px!important;
         padding-right: 33px!important;
+        
+        & img {
+            width: 415px !important;
+            height: 696px !important;
+            margin: 0 auto !important;
+        }
     }
     @media only screen and (min-width: 768px) {
         display: grid;
         max-width: 940px;
         grid-template-columns: auto auto;
+    }
+    & img {
+        border-radius: 30px;
+        border:1px solid var(--primatyColor);
+        height: 100%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
 
@@ -92,13 +107,16 @@ h2 {
         align-items: center;
         min-height: 208px !important;
     }
+    & i {
+        color: var(--primatyColor);
+    }
 }
 .review-img-wrapper {
     width: 100px;
     height: 100px;
     margin-bottom: 32px;
     border-radius: 50%;
-    border: 12px solid #ca8f65;
+    border: 12px solid var(--primatyColor);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +155,7 @@ h2 {
         margin-bottom: 24px;
         vertical-align: middle;
         font-size: 60px;
-        color: #ca8f65;
+        color: var(--primatyColor);
     }
     &-header {
         text-align: center;
@@ -147,7 +165,7 @@ h2 {
 .value {
     padding: 48px;
     border-radius: 24px;
-    border:1px solid #ca8f65;
+    border:1px solid var(--primatyColor);
     margin: 0px 12px 40px 12px;
     max-height: 400px;
     @media only screen and (max-width: 767px) {
@@ -200,7 +218,7 @@ h2 {
         margin-right: 5%;
         & img {
             border-radius: 64px;
-            border:1px solid #ca8f65;
+            border:1px solid var(--primatyColor);
         }
     }
     @media only screen and (min-width: 960px) and (max-width: 1239px) {

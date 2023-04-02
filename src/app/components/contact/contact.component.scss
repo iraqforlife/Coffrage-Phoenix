@@ -7,7 +7,7 @@
 }
 h4 {
     font-size: 24px;
-    color: #0c4c8e; 
+    color: var(--primatyColor); 
     line-height: 26px;
     font-weight: 700;
     letter-spacing: 0px;
@@ -22,7 +22,7 @@ h4 {
     width: 64px;
     height: 64px;
     background-color: #f4f4f4;
-    color: #0c4c8e; 
+    color: var(--primatyColor); 
     border-radius: 50% 50% 50% 50%;
     text-align: center;
 }
@@ -62,5 +62,14 @@ h4 {
 @media only screen and (max-width: 767px) {
     .section_wrapper {
         max-width: 700px!important;
+    }
+}
+.section_wrapper {
+    & h1 {
+        color:var(--primatyColor);
+        font-size: 45px;
+        line-height: 50px;
+        font-weight: 700;
+        letter-spacing: -1px;
     }
 }
