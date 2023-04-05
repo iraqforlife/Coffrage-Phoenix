@@ -41,6 +41,23 @@
   }
   padding: 13px 19px;
   box-shadow: 0px 4px 5px 0px rgba(255,0,0,.38);
+  border-width: 0;
+}
+.blue-button { 
+  border-radius: 11px;
+  background-color: white;
+  color:var(--primatyColor);
+  font-size: 19px;
+  border: 1px solid var(--primatyColor);
+  cursor: pointer;
+  @media only screen and (max-width: 650px) {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 12px;
+  }
+  padding: 13px 19px;
+  box-shadow: 0px 4px 5px 0px rgba(12,76,142,.38);
 }
 .contact-footer {
   margin-bottom: 25px;
