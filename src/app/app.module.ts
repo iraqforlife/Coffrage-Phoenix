@@ -22,13 +22,16 @@ import { AboutComponent } from './components/about/about.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { ValuesComponent } from './components/values/values.component';
 import { ServicesComponent } from './components/services/services.component';
+import { CarouselModule } from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    FormsModule,
+    CarouselModule,
+    ButtonModule,
     MatProgressSpinnerModule,
     HttpClientModule,
     AppRoutingModule,
@@ -36,7 +39,6 @@ import { ServicesComponent } from './components/services/services.component';
     MaterialModule,
     RouterModule,
     FormsModule,
-    ReactiveFormsModule,
     TranslateModule,
     CommonModule,
     TranslateModule.forRoot({

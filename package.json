@@ -24,6 +24,8 @@
     "angular-cli-ghpages": "^1.0.5",
     "angular-in-memory-web-api": "~0.15.0",
     "nanoid": "^4.0.0",
+    "primeicons": "^6.0.1",
+    "primeng": "^15.3.0",
     "rxjs": "~7.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

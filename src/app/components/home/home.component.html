@@ -22,6 +22,19 @@
     <div class="services-header">
         <h2>{{'our-services' | translate }}</h2>
     </div>
+    <div>
+        <p-carousel [value]="services" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
+            <ng-template let-service pTemplate="item">
+                <div >
+                    <img src="./assets/img/{{ service.image }}" [alt]="service.name"/>
+                    <p>{{ service.name |translate}}</p>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+    <div style="text-align: center;margin-bottom: 50px;margin-top: -25px;">
+        <button [routerLink]="['/services']" class="blue-button">Plus de détails sur les services</button>
+    </div>
     <app-soumission/>
     <app-reviews />
 </div>

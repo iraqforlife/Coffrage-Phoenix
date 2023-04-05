@@ -38,7 +38,7 @@
     }
 }
 .value {
-    padding: 48px;
+    padding: 30px;
     border-radius: 24px;
     border:1px solid var(--primatyColor);
     margin: 0px 12px 40px 12px;
@@ -47,14 +47,14 @@
         padding: 24px !important;
     }
     
-    @media only screen and (min-width: 960px) and (max-width: 1239px) {
-        min-height: 400px !important;
-    }
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        min-height: 240px;
+        min-height: 301px;
+    }
+    @media only screen and (min-width: 960px) and (max-width: 1239px) {
+        min-height: 381px !important;
     }
     @media only screen and (min-width: 1240px) {
-        min-height: 280px;
+        min-height: 322px;
     }
 }
 h2 {
