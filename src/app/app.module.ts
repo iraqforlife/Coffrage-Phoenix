@@ -19,6 +19,8 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 import { AboutComponent } from './components/about/about.component';
+import { ReviewsComponent } from './components/reviews/reviews.component';
+import { ValuesComponent } from './components/values/values.component';
 
 @NgModule({
   imports: [
@@ -52,7 +54,9 @@ import { AboutComponent } from './components/about/about.component';
     RealisationsComponent,
     CommercialComponent,
     ScrollTopComponent,
-    AboutComponent
+    AboutComponent,
+    ReviewsComponent,
+    ValuesComponent
   ],
   bootstrap: [
     AppComponent
