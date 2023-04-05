@@ -21,6 +21,7 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
 import { AboutComponent } from './components/about/about.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { ValuesComponent } from './components/values/values.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   imports: [
@@ -56,7 +57,8 @@ import { ValuesComponent } from './components/values/values.component';
     ScrollTopComponent,
     AboutComponent,
     ReviewsComponent,
-    ValuesComponent
+    ValuesComponent,
+    ServicesComponent
   ],
   bootstrap: [
     AppComponent

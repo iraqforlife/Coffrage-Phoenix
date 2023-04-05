@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SoumissionComponent } from './components/soumission/soumission.component';
 import { SelectiveStrategy } from './services/selective.strategy';
 import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
 
 
 const routes: Routes = [
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path:'commercial',
     component: CommercialComponent
+  },
+  {
+    path:'services',
+    component: ServicesComponent
   },
   {
     path:'contact',
