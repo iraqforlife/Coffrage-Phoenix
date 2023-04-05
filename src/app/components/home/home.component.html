@@ -16,23 +16,23 @@
 
 <div class="container-1200px padding-060px" style="padding-bottom: 0;">
     <app-values/>
-    <div style="text-align: center;margin-bottom: 50px;margin-top: -25px;">
+    <div style="text-align: center;margin-bottom: 35px;margin-top: -25px;">
         <button [routerLink]="['/about']" class="blue-button">En savoir plus sur l'entreprise</button>
     </div>
     <div class="services-header">
         <h2>{{'our-services' | translate }}</h2>
     </div>
     <div>
-        <p-carousel [value]="services" [numVisible]="3" [numScroll]="1" [responsiveOptions]="responsiveOptions">
+        <p-carousel [value]="services" [numVisible]="3" [numScroll]="3" [responsiveOptions]="responsiveOptions">
             <ng-template let-service pTemplate="item">
-                <div >
+                <div class="service-item">
                     <img src="./assets/img/{{ service.image }}" [alt]="service.name"/>
                     <p>{{ service.name |translate}}</p>
                 </div>
             </ng-template>
         </p-carousel>
     </div>
-    <div style="text-align: center;margin-bottom: 50px;margin-top: -25px;">
+    <div style="text-align: center;margin-bottom: 35px;margin-top: 15px;">
         <button [routerLink]="['/services']" class="blue-button">Plus de détails sur les services</button>
     </div>
     <app-soumission/>

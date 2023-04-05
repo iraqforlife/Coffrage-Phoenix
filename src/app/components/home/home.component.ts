@@ -7,11 +7,45 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  services: any[] = [{
-    image :'coffrage-de-beton.jpg',
-    name:'home.p1',
+  services: any[] = [
+    {
+      image :'coffrage-de-beton.jpg',
+      name:'home.p1',
+    },
+    {
+      image :'fondation.jpg',
+      name:'home.p2',
+    },
+    {
+      image :'agrandissement.jpg',
+      name:'home.p4',
+    },
+    {
+      image :'balcon-de-beton.jpg',
+      name:'concrete-balcony',
+    },
+    {
+      image :'descente-de-sous-sol-en-beton_003.png',
+      name:'home.p3',
+    },
+    {
+      image :'escalier-de-beton.jpg',
+      name:'concrete-staircase',
+    },
+    {
+      image :'dalle.jpeg',
+      name:'concrete-dalle',
+    },
+    {
+      image :'excavation.jpg',
+      name:'Mini excavation',
+    },
+    {
+      image :'reparation-de-fissure.jpg',
+      name:'repair',
+    },
 
-  }];
+  ];
   responsiveOptions = [
     {
         breakpoint: '1400px',
