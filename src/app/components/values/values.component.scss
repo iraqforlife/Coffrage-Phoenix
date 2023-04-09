@@ -43,6 +43,7 @@
     border:1px solid var(--primatyColor);
     margin: 0px 12px 40px 12px;
     max-height: 400px;
+    box-shadow: 0px 4px 5px 0px rgba(12,76,142,.38);
     @media only screen and (max-width: 767px) {
         padding: 24px !important;
     }

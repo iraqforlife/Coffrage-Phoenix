@@ -16,7 +16,7 @@ h2 {
     border:1px solid var(--primatyColor);
     border-radius: 24px;
     max-width: 650px;
-    
+    box-shadow: 0px 4px 5px 0px rgba(12,76,142,.38);
     @media only screen and (max-width: 1100px) {
         margin: 10px auto;
     }
