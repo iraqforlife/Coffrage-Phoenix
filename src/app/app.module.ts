@@ -24,6 +24,7 @@ import { ValuesComponent } from './components/values/values.component';
 import { ServicesComponent } from './components/services/services.component';
 import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
+import { CommentConstruireUneFondationEnBetonComponent } from './components/blogs/comment-construire-une-fondation-en-beton/comment-construire-une-fondation-en-beton.component';
 
 @NgModule({
   imports: [
@@ -60,7 +61,8 @@ import { ButtonModule } from 'primeng/button';
     AboutComponent,
     ReviewsComponent,
     ValuesComponent,
-    ServicesComponent
+    ServicesComponent,
+    CommentConstruireUneFondationEnBetonComponent
   ],
   bootstrap: [
     AppComponent
