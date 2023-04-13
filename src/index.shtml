@@ -28,6 +28,63 @@
 
       gtag('config', 'G-6RT5NHPHSE');
     </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Coffrages Phoenix",
+        "image": "http://coffragesphoenix.com/assets/img/coffrages-phoenix_500px.png",
+        "telephone": "(514) 444-2822",
+        "email": "soumission@coffragesphoenix.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4635 Boulevard Laurier",
+          "addressLocality": ", Terrebonne",
+          "addressRegion": "Qc",
+          "addressCountry": "Canada",
+          "postalCode": "J6X 0B3"
+        },
+        "url": "http://coffragesphoenix.com/",
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Jean-Guy"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Bon travaux bon prix"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Gilles"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Excellent entrepreneur expérimenté Respecte pleinement ses engagements Je le recommande"
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Pierre-Olivier Caron Périgny"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5"
+            },
+            "reviewBody": "Excellent service!"
+          }
+        ]
+      }
+      </script>
 </head>
   <body class="mat-typography" data-new-gr-c-s-check-loaded="14.1094.0" data-gr-ext-installed="">
     <app-root></app-root>
