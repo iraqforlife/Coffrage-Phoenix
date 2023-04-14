@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Coffrages Phoenix</title>
-    <meta name="description" content="Coffrages Phoenix est spécialisé en coffrage, en fondation de béton et en excavation à Sainte-Anne-des-Plaines, Saint-Lin, les Laurentides, Lanaudière, Laval et sur la Rive-Nord.">
     <meta name="robots" content="index, follow">
     <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <base href="/Coffrage-Phoenix" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./assets/fonts.css">
     <link rel="stylesheet" type="text/css" href="./assets/slider.css">
     <script src="./assets/e07c990d09.js" crossorigin="anonymous"></script>
     <script src="./assets/paperform.min.js"></script>

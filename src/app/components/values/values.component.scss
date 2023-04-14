@@ -46,15 +46,22 @@
         padding: 24px !important;
     }
     @media only screen and (max-width: 390px) {
-        min-height: 415px;
+        min-height: 410px;
+        font-size: 14px;
     }
-    @media only screen and (min-width: 391px) and (max-width: 768px) {
-        min-height: 380px;
+    @media only screen and (min-width: 391px) and (max-width: 500px) {
+        min-height: 410px;
     }
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
-        min-height: 342px;
+    @media only screen and (min-width: 501px) and (max-width: 900px) {
+        min-height: 330px;
     }
-    @media only screen and (min-width: 960px) and (max-width: 1239px) {
-        min-height: 360px;
+    @media only screen and (min-width: 900px) and (max-width: 1220px) {
+        min-height: 282px;
+    }
+    @media only screen and (min-width: 1221px) and (max-width: 1400px) {
+        min-height: 302px;
+    }
+    @media only screen and (min-width: 1401px) {
+        min-height: 340px;
     }
 }

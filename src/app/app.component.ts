@@ -1,5 +1,6 @@
 import { Component, } from '@angular/core';
 import { slideInAnimation } from './app.animation';
+import { Meta } from '@angular/platform-browser';
 import { 
   NavigationStart,
   NavigationEnd,
@@ -16,8 +17,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   loading:boolean = false;
-  constructor(private router: Router,
-    private translate: TranslateService,) {
+  constructor(private router: Router, private meta: Meta, private translate: TranslateService,) {
       // list of languages available
       translate.addLangs(['en', 'fr']);
   
@@ -33,6 +33,9 @@ export class AppComponent {
       }
       router.events.subscribe((routerEvent: Event) => {
         this.checkRouterEvent(routerEvent);
+      });
+      this.translate.get('home.title').subscribe(desc => {
+        this.meta.addTag({ name: 'description', content: desc});
       });
   }
   checkRouterEvent(routerEvent: Event): any {
