@@ -40,6 +40,14 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
+    path:'coffrage-saint-lin-laurentides.htm',
+    component: SoumissionComponent
+  },
+  {
+    path:'coffrage-fondation-de-beton.htm',
+    component: ServicesComponent
+  },    
+  {
     path:'**',
     component: HomeComponent
   }

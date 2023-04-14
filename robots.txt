@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://coffragesphoenix.com/sitemap.xml
