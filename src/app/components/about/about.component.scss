@@ -68,9 +68,10 @@
     margin: 40px 10px;
     display: grid;
     grid-template-columns: 50% 50%;
+    font-size: 16px;
     &-text {
         margin: 30px;
-        & h4 {
+        & h5 {
             font-size: 20px;
             line-height: 30px;
             font-weight: 450;
@@ -97,11 +98,14 @@
         }
     }
     @media only screen and (max-width: 959px) {
-        & h3 {
+        & h2 {
             font-size: 35px !important;
         }
-        & h4 {
+        & h5 {
             font-size: 17px;
         }
     }
+}
+.txt {
+    font-size: 16px;
 }
