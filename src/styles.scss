@@ -102,6 +102,13 @@ h4 {
 }
 .contact-footer {
   margin-bottom: 25px;
+  & a {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    margin-right: 5px ;
+    overflow-wrap: break-word;
+  }
 }
 .reseaux-footer p, .contact-footer p {
   margin-bottom: 25px;
