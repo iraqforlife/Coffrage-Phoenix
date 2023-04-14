@@ -6,17 +6,21 @@
     padding: 14px 0;
 }
 h4 {
-    font-size: 24px;
+    font-size: 24px !important;
     color: var(--primaryColor); 
-    line-height: 26px;
-    font-weight: 700;
-    letter-spacing: 0px;
+    line-height: 26px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0px !important;
 }
 .icon-row {
     vertical-align: middle;
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
+
+    & span {
+        font-size: 17px;
+    }
 }
 .icon-back {
     width: 64px;
@@ -38,6 +42,9 @@ h4 {
     .location-icon {
         padding-bottom: 30px !important;
     }
+    .email span {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width: 650px) {
     .phone-icon {
@@ -47,29 +54,43 @@ h4 {
 @media only screen and (min-width: 1240px){
     .section_wrapper {
         max-width: 1220px;
-    }  
+    }
+    .slider h4 {
+        font-size: 70px !important;
+        line-height: 60px !important;
+    }
 }
 @media only screen and (min-width: 960px) and (max-width: 1239px) {
     .section_wrapper {
         max-width: 940px;
-    }  
+    } 
+    .slider h4 {
+        font-size: 45px !important;
+        line-height: 40px !important;
+    } 
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .section_wrapper {
         max-width: 708px;
     }
+    .slider h4 {
+        font-size: 38px !important;
+        line-height: 40px !important;
+    }
 }
 @media only screen and (max-width: 767px) {
     .section_wrapper {
-        max-width: 700px!important;
+        max-width: 700px;
+    }
+    .slider h4 {
+        font-size: 20px !important;
+        line-height: 25px !important;
     }
 }
-.section_wrapper {
-    & h1 {
-        color:var(--primaryColor);
-        font-size: 45px;
-        line-height: 50px;
-        font-weight: 700;
-        letter-spacing: -1px;
+@media only screen and (max-width: 400px) {
+    .slider h4 {
+        font-size: 17px !important;
+        line-height: 20px !important;
     }
+
 }
