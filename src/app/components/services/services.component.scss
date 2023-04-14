@@ -2,5 +2,10 @@
     & img {
         border: 1px solid var(--primaryColor);
         border-radius: 15px;
+        margin: 12px 0;
+    }
+    & p {
+        text-align: justify;
+        font-size: 14px;
     }
 }
