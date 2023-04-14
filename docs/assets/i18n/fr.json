@@ -3,12 +3,12 @@
     "concrete-formwork":"Coffrages de béton",
     "concrete-structure":"Structures de béton",
     "concrete-crack":"Fissures de béton",
-    "concrete-balcony":"Balcons de béton",
+    "concrete-balcony":"Balcons en béton",
     "concrete-all":"Coffrages en tout genre",
-    "concrete-staircase":"Escaliers de béton",
+    "concrete-staircase":"Escaliers en béton",
     "concrete-basement":"Descentes extérieur pour sous-sol",
     "concrete-garage":"Planchers de garage",
-    "concrete-dalle":"Dalles de béton",
+    "concrete-dalle":"Dalles en béton",
     "concrete-repair":"Réparations de béton",
     "towns":"Villes et régions",
     "served":"desservies",
@@ -54,7 +54,7 @@
     "email":"Courriel",
     "our-values":"Nos valeurs",
     "Quality":"Qualité",
-    "Quality.p":"Nous nous engageons à fournir des produits et des services de qualité supérieure à nos clients en surveillant les processus de production de manière rigoureuse.",
+    "Quality.p":"Nous nous engageons à fournir des produits et des services de qualité supérieure à nos clients.",
     "Trust":"Confiance",
     "Trust.p":"Nous construisons la confiance de nos clients en étant transparents dans nos communications et nos activités et en respectant nos engagements.",
     "Integrity":"Intégrité",
@@ -72,5 +72,6 @@
     "Company": "Entreprise",
     "our-services":"Nos services",
     "services-plus":"Plus de détails sur les services",
-    "about-plus":"En savoir plus sur l'entreprise"
+    "about-plus":"En savoir plus sur l'entreprise",
+    "home.title":"Spécialiste en fondation de béton et coffrages dans Lanaudière, les Laurentides et la Rive-Nord"
 }
