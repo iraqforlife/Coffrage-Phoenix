@@ -54,11 +54,17 @@ export class AppComponent {
     localStorage.setItem('lang-chosen', 'en');
     this.translate.use('en');
     this.meta.updateTag({name:'language',content:'English'});
+    this.translate.get('home.title').subscribe(desc => {
+      this.meta.updateTag({ name: 'description', content: desc});
+    });
   } 
   french() {
     localStorage.setItem('lang-chosen', 'fr');
     this.translate.use('fr');
     this.meta.updateTag({name:'language',content:'French'});
+    this.translate.get('home.title').subscribe(desc => {
+      this.meta.updateTag({ name: 'description', content: desc});
+    });
   }
   get isFrench() {
     return this.translate.currentLang == 'fr';
