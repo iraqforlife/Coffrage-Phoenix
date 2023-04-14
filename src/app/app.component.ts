@@ -53,10 +53,12 @@ export class AppComponent {
   english() {
     localStorage.setItem('lang-chosen', 'en');
     this.translate.use('en');
+    this.meta.updateTag({name:'language',content:'English'});
   } 
   french() {
     localStorage.setItem('lang-chosen', 'fr');
     this.translate.use('fr');
+    this.meta.updateTag({name:'language',content:'French'});
   }
   get isFrench() {
     return this.translate.currentLang == 'fr';
