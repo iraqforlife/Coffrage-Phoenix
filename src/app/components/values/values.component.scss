@@ -1,7 +1,5 @@
 
 .values {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
     margin: 15px auto;
     align-items: center;
     text-align: center;
@@ -55,7 +53,7 @@
         min-height: 381px !important;
     }
     @media only screen and (min-width: 1240px) {
-        min-height: 322px;
+        min-height: 360px;
     }
 }
 h2 {

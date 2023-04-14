@@ -3,40 +3,17 @@
     <h2>{{'our-values' | translate }}</h2>
 </div>
 <div class="values">
-    <div class="value">
-        <div>
-            <i class="fa-solid fa-user"></i>
-        </div>
-        <div>
-            <h5>{{'Integrity' | translate }}</h5>
-            <p>{{'Integrity.p' | translate }}</p>
-        </div>
-    </div>
-    <div class="value">
-        <div>
-            <i class="fa-solid fa-dumbbell"></i>
-        </div>
-        <div>
-            <h5>{{'Quality' | translate }}</h5>
-            <p>{{'Quality.p' | translate }}</p>
-        </div>
-    </div>
-    <div class="value">
-        <div>
-            <i class="fa-solid fa-handshake"></i>
-        </div>
-        <div>
-            <h5>{{'Trust' | translate }}</h5>
-            <p>{{'Trust.p' | translate }}</p>
-        </div>
-    </div>
-    <div class="value">
-        <div>
-            <i class="fa-solid fa-lightbulb"></i>
-        </div>
-        <div>
-            <h5>Innovation</h5>
-            <p>{{'Innovation.p' | translate }}</p>
-        </div>
-    </div>
+    <p-carousel [value]="values" [numVisible]="4" [numScroll]="2" [responsiveOptions]="responsiveOptions">
+        <ng-template let-value pTemplate="item">
+            <div class="value">
+                <div>
+                    <i class="fa-solid {{value.icon}}"></i>
+                </div>
+                <div>
+                    <h5>{{ value.h5  | translate }}</h5>
+                    <p>{{ value.p | translate }}</p>
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
 </div>

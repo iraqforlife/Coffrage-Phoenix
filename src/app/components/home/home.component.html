@@ -19,10 +19,6 @@
 </div>
 
 <div class="container-1200px padding-060px" style="padding-bottom: 0;">
-    <app-values/>
-    <div style="text-align: center;margin-bottom: 35px;margin-top: -25px;">
-        <button [routerLink]="['/about']" class="blue-button">{{'about-plus' | translate}}</button>
-    </div>
     <div class="services-header">
         <h2>{{'our-services' | translate }}</h2>
     </div>
@@ -39,6 +35,12 @@
     <div style="text-align: center;margin-bottom: 35px;margin-top: 15px;">
         <button [routerLink]="['/services']" class="blue-button">{{'services-plus' | translate}}</button>
     </div>
+
+    <app-values/>
+    <div style="text-align: center;margin-bottom: 35px;margin-top: -25px;">
+        <button [routerLink]="['/about']" class="blue-button">{{'about-plus' | translate}}</button>
+    </div>
+
     <app-soumission/>
     <app-reviews />
 </div>
