@@ -5,7 +5,7 @@ h2 {
     line-height: 60px;
     font-weight: 500;
     letter-spacing: 0px;
-    color: var(--primatyColor);
+    color: var(--primaryColor);
 }
 .services-header {
     text-align: center;
@@ -13,7 +13,7 @@ h2 {
 .service-item {
     text-align: center;
     margin: 10px;
-    border:1px solid var(--primatyColor);
+    border:1px solid var(--primaryColor);
     border-radius: 24px;
     max-width: 650px;
     box-shadow: 0px 4px 5px 0px rgba(12,76,142,.38);
@@ -29,6 +29,6 @@ h2 {
         line-height: 28px;
         font-weight: 500;
         letter-spacing: 0px;
-        color: var(--primatyColor);
+        color: var(--primaryColor);
     }
 }
