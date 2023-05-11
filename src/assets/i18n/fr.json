@@ -25,7 +25,7 @@
     "realizations.h1":"FONDATIONS",
     "realizations.h2":"ET COFFRAGES",
     "realizations.h3":"DE BÉTON",
-    "realizations.p1":"Escaliers, trottoirs et balcons de béton",
+    "realizations.p1":"Marche de béton, dalle de béton et balcon en béton",
     "realizations.p3":"Fondations pour agrandissement de maison",
     "realizations.p4":"Coffrage commercial",
     "realizations.p5":"Suivez nos dernières réalisations sur Instagram",
@@ -36,7 +36,7 @@
     "home.h4":"avant tout!",
     "home.p1":"Coffrage",
     "home.p2":"Fondation",
-    "home.p3":"Descente de sous-sol",
+    "home.p3":"Descente de sous-sol en béton",
     "home.p4":"Agrandissement de maison",
     "repair":"Réparation",
 
@@ -60,10 +60,10 @@
     "Integrity":"Intégrité",
     "Integrity.p":"Nous nous engageons à agir avec intégrité dans toutes nos activités en respectant les normes éthiques et les lois en vigueur.",
     "Innovation.p":"Nous cherchons en permanence à innover en adoptant des techniques et des technologies de pointe pour améliorer la qualité de nos produits et services.",
-    "desc.p1":"Coffrages Phoenix est une entreprise spécialisée dans les coffrages et excavations à Lanaudière et sur la Rive Nord de Montréal. Nous sommes membre de la Régie du Bâtiment du Québec.",
-    "desc.p2":"Coffrages Phoenix se spécialise dans les installations en béton pour répondre aux besoins et aux attentes de notre clientèle cible. Nous offrons des services de coffrage, d'escaliers en béton, de dalles en béton, de balcons en béton, de solages, de réparations de béton ainsi que d'agrandissements de maisons et de sous-sol. Nous nous efforçon de fournir des installations de qualité qui répondent aux besoins de nos clients et dépassent leurs attentes.",
+    "desc.p1":"Spécialiste en coffrage et en excavation dans les Laurentides, Lanaudière et la Rive Nord.",
+    "desc.p2":"Coffrages Phoenix se spécialise dans les coffrages de béton ainsi que des services d'excavation. Avec notre équipe d'experts, nous assurons un service de la meilleure qualité pour répondre au exigences de notre clientèle et dépasser leurs attentes. Nous offrons des services de coffrage, de marches de béton, de balcons en béton et bien plus.",
     "about-us":"À propos de nous",
-    "desc.p3":"Notre vision est d'être le leader en coffrage au Québec en offrant des solutions innovantes et de haute qualité pour répondre aux besoins de nos clients, tout en mobilisant et inspirant nos employés pour atteindre notre objectif commun.",
+    "desc.p3":"Notre vision est d'être le leader en coffrage au Québec en offrant des solutions innovantes et de haute qualité pour répondre aux besoins de nos clients et dépasser leurs attentes, tout en mobilisant et inspirant nos employés pour atteindre notre objectif commun.",
     "desc.p4":"Notre histoire a commencé avec l'envie de reprendre le flambeau d'une entreprise existante et de la propulser vers de nouveaux sommets. Après avoir acheté ses actifs, nous nous sommes fixés pour objectif de faire fructifier cette entreprise, en opérant de manière efficiente et en la développant. Notre ambition pour notre première année de démarrage est de stabiliser les opérations, d'établir des partenariats solides et de mettre en place les fondations pour une croissance à long terme. Nous sommes impatients de voir les fruits de nos efforts et de contribuer au dynamisme économique de la région.",
     "reviews.s1":"Que disent les clients",
     "reviews.s2":"de notre travail ?",
@@ -73,5 +73,7 @@
     "our-services":"Nos services",
     "services-plus":"Plus de détails sur les services",
     "about-plus":"En savoir plus sur l'entreprise",
-    "home.title":"Spécialiste en fondation de béton et coffrages dans Lanaudière, les Laurentides et la Rive-Nord"
+    "home.title":"Spécialiste en fondation de béton et coffrages dans Lanaudière, les Laurentides et la Rive-Nord",
+    "vision.desc":"Innovation, qualité, objectif commun",
+    "history" : "Histoire"
 }

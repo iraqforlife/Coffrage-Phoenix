@@ -8,6 +8,9 @@
             <h2 style="text-align: center;">Coffrages Phoenix</h2>
             <h5>{{'desc.p1' | translate }}</h5>
             <p>{{'desc.p2' | translate }}</p>
+            <div style="text-align: center;margin-bottom: 35px;margin-top: 15px;">
+                <button [routerLink]="['/services']" class="blue-button">{{'services-plus' | translate}}</button>
+            </div>
         </div>
         <div class="desc-img">
             <img src="./assets/img/escalier-de-beton_001.jpg" alt="Escalier de beton" width="780" height="759">
@@ -20,7 +23,9 @@
         </div>
         <div class="desc-text" style="margin-top: 0;">
             <h2 style="text-align: center; ">Vision</h2>
-            <h5>{{'desc.p3' | translate }}</h5>
+            <h3 style="font-size: 36px !important;line-height:28px !important ;">{{'vision.desc' | translate}}</h3>
+            <p>{{'desc.p3' | translate }}</p>
+            <h2 style="text-align: center; ">{{'history' | translate }}</h2>
             <p>{{'desc.p4' | translate }}</p>
         </div>
     </div>

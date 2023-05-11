@@ -25,9 +25,9 @@
     "realizations.h1":"CONCRETE",
     "realizations.h2":"FORMWORK",
     "realizations.h3":"AND FOUNDATIONS",
-    "realizations.p1":"Concrete stairs, sidewalks and balconies",
+    "realizations.p1":"Concrete stairs, concrete sidewalks and concrete balconies",
     "realizations.p3":"Foundations for house expansion",
-    "realizations.p4":"Commercial concrete work",
+    "realizations.p4":"Commercial formwork",
     "realizations.p5":"Follow our latest realizations on Instagram",
 
     "home.h1":"FOUNDATIONS AND",
@@ -36,7 +36,7 @@
     "home.h4":"before all!",
     "home.p1":"Formwork",
     "home.p2":"Foundation",
-    "home.p3":"Basement descent",
+    "home.p3":"Concrete basement descent",
     "home.p4":"House extension",
     "repair":"Repair",
 
@@ -60,10 +60,10 @@
     "Integrity":"Integrity",
     "Integrity.p":"We are committed to acting with integrity in all our activities by adhering to ethical standards and applicable laws.",
     "Innovation.p":"We constantly strive to innovate by adopting cutting-edge techniques and technologies to improve the quality of our products and services.",
-    "desc.p1":"Coffrages Phoenix specializes in formwork and excavations in the Laurentians, Lanaudière, Montreal, and the North Shore of Montreal. We are a member of the Quebec Building Board.",
-    "desc.p2":"Coffrages Phoenix specializes in concrete installations to meet the needs and expectations of our target clientele. We offer services such as formwork, concrete stairs, concrete slabs, concrete balconies, foundations, concrete repairs, as well as home and basement expansions. We strive to provide quality installations that meet the needs of our clients and exceed their expectations.",
+    "desc.p1":"Specialist in formwork and excavation in the Laurentians, Lanaudière and the North Shore.",
+    "desc.p2":"Coffrages Phoenix specializes in concrete formwork as well as excavation services. With our team of experts, we provide the highest quality service to meet the requirements of our customers and exceed their expectations. We offer formwork services, concrete steps, concrete balconies and much more.",
     "about-us":"About us",
-    "desc.p3":"Our vision is to be the leader in formwork in Quebec by offering innovative and high-quality solutions to meet the needs of our clients, while mobilizing and inspiring our employees to achieve our common goal.",
+    "desc.p3":"Our vision is to be the leader in formwork in Quebec by offering innovative and high-quality solutions to meet the needs of our clients and exceed their expectations, while mobilizing and inspiring our employees to achieve our common goal.",
     "desc.p4":"Our story began with the desire to take over an existing business and propel it to new heights. After purchasing its assets, our goal was to grow this company by operating efficiently and expanding it. Our ambition for our first year of operation is to stabilize operations, establish strong partnerships, and lay the foundations for long-term growth. We are excited to see the fruits of our efforts and contribute to the economic vitality of the region.",
     "reviews.s1":"What are customers saying",
     "reviews.s2":"about our work?",
@@ -73,5 +73,7 @@
     "our-services":"Our services",
     "services-plus":"More details about the services",
     "about-plus":"Learn more about the company",
-    "home.title":"Concrete foundation and formwork specialist in Lanaudière, the Laurentides and the North Shore"
+    "home.title":"Concrete foundation and formwork specialist in Lanaudière, the Laurentides and the North Shore",
+    "vision.desc":"Innovation, quality, commun objectif",
+    "history" : "History"
 }
