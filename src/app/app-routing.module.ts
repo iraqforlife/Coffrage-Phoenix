@@ -8,6 +8,7 @@ import { SoumissionComponent } from './components/soumission/soumission.componen
 import { SelectiveStrategy } from './services/selective.strategy';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
+import { MarcheDeBetonComponent } from './components/marche-de-beton/marche-de-beton.component';
 
 
 const routes: Routes = [
@@ -46,11 +47,15 @@ const routes: Routes = [
   {
     path:'coffrage-fondation-de-beton.htm',
     component: ServicesComponent
-  },    
+  },   
+  {
+    path:'marche-de-beton',
+    component: MarcheDeBetonComponent
+  }, 
   {
     path:'**',
     component: HomeComponent
-  }
+  },
 ];
 
 @NgModule({

@@ -26,6 +26,7 @@ import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { CommentConstruireUneFondationEnBetonComponent } from './components/blogs/comment-construire-une-fondation-en-beton/comment-construire-une-fondation-en-beton.component';
 import { CommentFaireUnBalconEnBetonComponent } from './components/blogs/comment-faire-un-balcon-en-beton/comment-faire-un-balcon-en-beton.component';
+import { MarcheDeBetonComponent } from './components/marche-de-beton/marche-de-beton.component';
 
 @NgModule({
   imports: [
@@ -64,7 +65,8 @@ import { CommentFaireUnBalconEnBetonComponent } from './components/blogs/comment
     ValuesComponent,
     ServicesComponent,
     CommentConstruireUneFondationEnBetonComponent,
-    CommentFaireUnBalconEnBetonComponent
+    CommentFaireUnBalconEnBetonComponent,
+    MarcheDeBetonComponent
   ],
   bootstrap: [
     AppComponent

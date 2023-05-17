@@ -5,6 +5,71 @@
   --primaryColor: #0c4c8e;
 }
 
+
+.desc {
+  margin: 40px 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 16px;
+  &-text {
+      margin: 30px;
+      & h5 {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 450;
+      }
+  }
+  &-img {
+      margin-right: 5%;
+      & img {
+          border-radius: 64px;
+          border:1px solid var(--primaryColor);
+      }
+  }
+  @media only screen and (min-width: 960px) and (max-width: 1239px) {
+      &-text {
+          margin-top: 0;
+      }
+  }
+
+  @media only screen and (max-width: 959px) {
+      display: block;
+      align-items: center;
+      &-img {
+          margin: 30px;
+      }
+  }
+  @media only screen and (max-width: 959px) {
+      & h2 {
+          font-size: 35px !important;
+      }
+      & h5 {
+          font-size: 17px;
+      }
+  }
+}
+.about {
+    margin: 15px auto;
+
+    @media only screen and (max-width: 767px) {
+        max-width: 700px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        max-width: 708px;
+    }
+    @media only screen and (min-width: 960px) and (max-width: 1239px) {
+        max-width: 940px;
+    }
+    @media only screen and (min-width: 1240px) {
+        max-width: 1220px;
+    }
+}
+
+.servces-desc-title {
+  margin: 30px;
+}
+
 h1 {
   font-size: 55px !important;
   line-height: 62px !important;

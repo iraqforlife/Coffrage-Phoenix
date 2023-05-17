@@ -34,7 +34,7 @@
         "@context": "http://schema.org",
         "@type": "LocalBusiness",
         "name": "Coffrages Phoenix",
-        "image": "http://coffragesphoenix.com/assets/img/coffrages-phoenix_500px.png",
+        "image": "http://coffragesphoenix.com/assets/img/coffrages-phoenix.png",
         "telephone": "(514) 444-2822",
         "email": "soumission@coffragesphoenix.com",
         "address": {

@@ -3,7 +3,7 @@
     <mat-drawer #drawer position="end" >
         <div class="mobile-nav">
             <div style="margin: 20px">
-                <a [routerLink]="['/']" (click)="drawer.toggle()"><img class="" src="./assets/img/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
+                <a [routerLink]="['/']" (click)="drawer.toggle()"><img class="" src="./assets/img/coffrages-phoenix.png" alt="Coffrages Phoenix"></a>
             </div>
             <mat-divider style="border-top-color:lightgray;"></mat-divider>
             <div><a [routerLink]="['/']" (click)="drawer.toggle()">{{'home' | translate}}</a></div>
@@ -30,7 +30,7 @@
             <nav class="backgroundcolor-white">
                 <div class="header-menu">
                     <div style="display: flex;">
-                        <a [routerLink]="['/']"><img class="header-logo imagehover-01" src="./assets/img/coffrages-phoenix_500px.png" alt="Coffrages Phoenix"></a>
+                        <a [routerLink]="['/']"><img class="header-logo imagehover-01" src="./assets/img/coffrages-phoenix.png" alt="Coffrages Phoenix"></a>
                         <button class="mobile-nav-toggle" mat-button (click)="drawer.toggle()"><i class="fa-solid fa-bars"></i></button>
                     </div>
                     <div class="alignright">
@@ -92,33 +92,29 @@
                     <div class="alignleft">
                         <div>
                             <p class="fonthover-04 bold" style="font-size: 24px;">Services</p>
-                            <p class="fonthover-04 lineheight-125" style="font-size: 17px;">
-                                {{'concrete-foundation' | translate}}
-                                <br>
-                                {{'concrete-formwork' | translate}}
-                                <br>
-                                {{'concrete-structure' | translate}}
-                                <br>
-                                {{'concrete-crack' | translate}}
-                                <br>
-                                {{'concrete-all' | translate}}
-                                <br>
-                                {{'concrete-balcony' | translate}}
-                                <br>
-                                {{'concrete-staircase' | translate}}
-                                <br>
-                                {{'concrete-basement' | translate}}
-                                <br>
-                                {{'concrete-garage' | translate}}
-                                <br>
-                                {{'concrete-dalle' | translate}}
-                                <br>
-                                {{'concrete-repair' | translate}}
-                                <br>
-                                {{'concrete-foundation' | translate}}
-                                <br>
-                                Mini excavation
-                            </p>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-structure' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-all' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-balcony' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-staircase' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-basement' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-garage' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-dalle' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-repair' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <br>
+                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">Mini excavation</a>
                             <div class="footer-spacer-001"></div>
                         </div>
                     </div>
