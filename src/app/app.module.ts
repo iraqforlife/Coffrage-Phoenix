@@ -26,7 +26,15 @@ import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { CommentConstruireUneFondationEnBetonComponent } from './components/blogs/comment-construire-une-fondation-en-beton/comment-construire-une-fondation-en-beton.component';
 import { CommentFaireUnBalconEnBetonComponent } from './components/blogs/comment-faire-un-balcon-en-beton/comment-faire-un-balcon-en-beton.component';
-import { MarcheDeBetonComponent } from './components/marche-de-beton/marche-de-beton.component';
+import { MarcheDeBetonComponent } from './components/services/marche-de-beton/marche-de-beton.component';
+import { DalleDeBetonComponent } from './components/services/dalle-de-beton/dalle-de-beton.component';
+import { FondationMaisonComponent } from './components/services/fondation-maison/fondation-maison.component';
+import { ExcavationServicesComponent } from './components/services/excavation-services/excavation-services.component';
+import { DescenteSousSolBetonComponent } from './components/services/descente-sous-sol-beton/descente-sous-sol-beton.component';
+import { BalconEnBetonComponent } from './components/services/balcon-en-beton/balcon-en-beton.component';
+import { CoffrageComponent } from './components/services/coffrage/coffrage.component';
+import { AgrandissementMaisonComponent } from './components/services/agrandissement-maison/agrandissement-maison.component';
+import { FissureBetonComponent } from './components/services/fissure-beton/fissure-beton.component';
 
 @NgModule({
   imports: [
@@ -66,7 +74,15 @@ import { MarcheDeBetonComponent } from './components/marche-de-beton/marche-de-b
     ServicesComponent,
     CommentConstruireUneFondationEnBetonComponent,
     CommentFaireUnBalconEnBetonComponent,
-    MarcheDeBetonComponent
+    MarcheDeBetonComponent,
+    DalleDeBetonComponent,
+    FondationMaisonComponent,
+    ExcavationServicesComponent,
+    DescenteSousSolBetonComponent,
+    BalconEnBetonComponent,
+    CoffrageComponent,
+    AgrandissementMaisonComponent,
+    FissureBetonComponent
   ],
   bootstrap: [
     AppComponent

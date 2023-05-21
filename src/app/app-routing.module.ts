@@ -8,7 +8,15 @@ import { SoumissionComponent } from './components/soumission/soumission.componen
 import { SelectiveStrategy } from './services/selective.strategy';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
-import { MarcheDeBetonComponent } from './components/marche-de-beton/marche-de-beton.component';
+import { MarcheDeBetonComponent } from './components/services/marche-de-beton/marche-de-beton.component';
+import { DalleDeBetonComponent } from './components/services/dalle-de-beton/dalle-de-beton.component';
+import { FondationMaisonComponent } from './components/services/fondation-maison/fondation-maison.component';
+import { AgrandissementMaisonComponent } from './components/services/agrandissement-maison/agrandissement-maison.component';
+import { ExcavationServicesComponent } from './components/services/excavation-services/excavation-services.component';
+import { DescenteSousSolBetonComponent } from './components/services/descente-sous-sol-beton/descente-sous-sol-beton.component';
+import { BalconEnBetonComponent } from './components/services/balcon-en-beton/balcon-en-beton.component';
+import { FissureBetonComponent } from './components/services/fissure-beton/fissure-beton.component';
+import { CoffrageComponent } from './components/services/coffrage/coffrage.component';
 
 
 const routes: Routes = [
@@ -49,9 +57,80 @@ const routes: Routes = [
     component: ServicesComponent
   },   
   {
-    path:'marche-de-beton',
+    path:'services/marche-de-beton',
+    component: MarcheDeBetonComponent
+  },   
+  {
+    path:'services/concrete-step',
     component: MarcheDeBetonComponent
   }, 
+  {
+    path:'services/dalle-de-beton',
+    component: DalleDeBetonComponent
+  },   
+  {
+    path:'services/concrete-slab',
+    component: DalleDeBetonComponent
+  }, 
+  {
+    path:'services/fondation-maison',
+    component: FondationMaisonComponent
+  },   
+  {
+    path:'services/house-foundation',
+    component: FondationMaisonComponent
+  }, 
+  {
+    path:'services/agrandissement-maison',
+    component: AgrandissementMaisonComponent
+  }, 
+  {
+    path:'services/house-extension',
+    component: AgrandissementMaisonComponent
+  }, 
+  {
+    path:'services/excavation-services',
+    component: ExcavationServicesComponent
+  }, 
+  {
+    path:'services/mini-excavation',
+    component: ExcavationServicesComponent
+  }, 
+  {
+    path:'services/descente-sous-sol-beton',
+    component: DescenteSousSolBetonComponent
+  }, 
+  {
+    path:'services/concrete-basement',
+    component: DescenteSousSolBetonComponent
+  }, 
+  {
+    path:'services/balcon-en-beton',
+    component: BalconEnBetonComponent
+  }, 
+  {
+    path:'services/concrete-balcony',
+    component: BalconEnBetonComponent
+  }, 
+  {
+    path:'services/fissure-beton',
+    component: FissureBetonComponent
+  }, 
+  {
+    path:'services/concrete-repair',
+    component: FissureBetonComponent
+  }, 
+  {
+    path:'services/coffrage',
+    component: CoffrageComponent
+  }, 
+  {
+    path:'services/formwork',
+    component: CoffrageComponent
+  }, 
+
+
+
   {
     path:'**',
     component: HomeComponent

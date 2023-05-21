@@ -92,29 +92,41 @@
                     <div class="alignleft">
                         <div>
                             <p class="fonthover-04 bold" style="font-size: 24px;">Services</p>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>
+                            <a [routerLink]="['services/coffrage']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>
+                            <a [routerLink]="['services/formwork']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-structure' | translate}}</a>
+                            <a [routerLink]="['services/coffrage']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-structure' | translate}}</a>
+                            <a [routerLink]="['services/formwork']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-structure' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-all' | translate}}</a>
+                            <a [routerLink]="['services/coffrage']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-all' | translate}}</a>
+                            <a [routerLink]="['services/formwork']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-all' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-balcony' | translate}}</a>
+                            <a [routerLink]="['services/balcon-en-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-balcony' | translate}}</a>
+                            <a [routerLink]="['services/concrete-balcony']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-balcony' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-staircase' | translate}}</a>
+                            <a [routerLink]="['services/marche-de-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-staircase' | translate}}</a>
+                            <a [routerLink]="['services/concrete-step']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-staircase' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-basement' | translate}}</a>
+                            <a [routerLink]="['services/descente-sous-sol-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-basement' | translate}}</a>
+                            <a [routerLink]="['services/concrete-basement']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-basement' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-garage' | translate}}</a>
+                            <a [routerLink]="['services/dalle-de-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-garage' | translate}}</a>
+                            <a [routerLink]="['services/concrete-slab']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-garage' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-dalle' | translate}}</a>
+                            <a [routerLink]="['services/dalle-de-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-dalle' | translate}}</a>
+                            <a [routerLink]="['services/concrete-slab']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-dalle' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-repair' | translate}}</a>
+                            <a [routerLink]="['services/fissure-beton']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-repair' | translate}}</a>
+                            <a [routerLink]="['services/concrete-repair']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-repair' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
                             <br>
-                            <a [routerLink]="['/marche-de-beton']" class="fonthover-04 lineheight-125" style="font-size: 17px;">Mini excavation</a>
+                            <a [routerLink]="['services/excavation-services']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">Mini excavation</a>
+                            <a [routerLink]="['services/mini-excavation']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">Mini excavation</a>
                             <div class="footer-spacer-001"></div>
                         </div>
                     </div>
