@@ -1,1 +1,30 @@
-<p>coffrage works!</p>
+<div style="display: grid;" class="about">
+    <div style="text-align: center;">
+        <h1 *ngIf="isFrench">Services <strong>coffrages</strong></h1>
+        <h1 *ngIf="!isFrench"><strong>Formwork</strong> Services</h1>
+    </div>
+    <div style="text-align: center;margin-left: auto;margin-right: auto;"><img src="./assets/img/about-swig.svg" alt="about"/></div>
+
+    <div class="desc">
+        <div class="desc-img">
+            <img src="./assets/img/escalier-de-beton_004.jpeg" alt="Escalier de beton" width="780" height="759">
+        </div>
+        <div class="servces-desc-title">
+            <h2 style="color:#545454;"><strong>{{'home.p1' | translate}}</strong></h2>
+            <hr>
+            <p style="color: #1e1e1e;">{{'services.coffrage.p1' | translate }}</p>
+            <ul>
+                <li>{{'concrete-dalle' | translate }}</li>
+                <li>{{'concrete-balcony' | translate }}</li>
+                <li>{{'concrete-foundation' | translate }}</li>
+                <li>{{'concrete-staircase' | translate }}</li>
+                <li>{{'home.p4' | translate }}</li>
+                <li>{{'concrete-structure' | translate }}</li>
+                <li>{{'concrete-all' | translate }}</li>
+            </ul>
+            <p style="color: #1e1e1e;">{{'services.coffrage.p2' | translate }}</p>
+        </div>
+    </div>
+
+    <app-soumission></app-soumission>
+</div>

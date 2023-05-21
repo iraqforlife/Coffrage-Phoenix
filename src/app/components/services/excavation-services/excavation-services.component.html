@@ -1,1 +1,31 @@
-<p>excavation-services works!</p>
+<div style="display: grid;" class="about">
+    <div style="text-align: center;">
+        <h1 *ngIf="isFrench">Services <strong>coffrages</strong></h1>
+        <h1 *ngIf="!isFrench"><strong>Formwork</strong> Services</h1>
+    </div>
+    <div style="text-align: center;margin-left: auto;margin-right: auto;"><img src="./assets/img/about-swig.svg" alt="about"/></div>
+
+    <div class="desc">
+        <div class="desc-img">
+            <img src="./assets/img/escalier-de-beton_004.jpeg" alt="Escalier de beton" width="780" height="759">
+        </div>
+        <div class="servces-desc-title">
+            <h2 style="color:#545454;"><strong>Excavation</strong></h2>
+            <hr>
+            <p style="color: #1e1e1e;">{{'services.excavation1' | translate }}</p>
+            <p style="color: #1e1e1e;">{{'services.excavation2' | translate }}</p>
+            
+            <ul>
+                <li>{{'trenches' | translate }}</li>
+                <li>{{'french-drain' | translate }}</li>
+                <li>{{'landscaping-work' | translate }}</li>
+                <li>{{'demolition' | translate }}</li>
+                <li>{{'landscaping' | translate }}</li>
+            </ul>
+
+            <p style="color: #1e1e1e;">{{'services.excavation3' | translate }}</p>
+        </div>
+    </div>
+
+    <app-soumission></app-soumission>
+</div>
