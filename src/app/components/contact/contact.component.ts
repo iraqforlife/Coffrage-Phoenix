@@ -1,5 +1,6 @@
 import { TranslateService } from '@ngx-translate/core';
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact',
@@ -7,7 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent {
-  constructor(public translate: TranslateService) {}
+  constructor(private meta: Meta, private translate: TranslateService,) {
+    this.translate.get('meta.contact').subscribe(desc => {
+      this.meta.updateTag({ name: 'description', content: desc});
+    });
+  }
   get isFrench() {
     return this.translate.currentLang == 'fr';
   }

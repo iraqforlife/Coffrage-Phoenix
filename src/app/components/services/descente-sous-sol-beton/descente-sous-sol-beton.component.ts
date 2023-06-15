@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,7 +7,11 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './descente-sous-sol-beton.component.html'
 })
 export class DescenteSousSolBetonComponent {
-  constructor(public translate: TranslateService) {}
+  constructor(private meta: Meta, private translate: TranslateService,) {
+    this.translate.get('meta.descente').subscribe(desc => {
+      this.meta.updateTag({ name: 'description', content: desc});
+    });
+  }
   get isFrench() {
     return this.translate.currentLang == 'fr';
   }

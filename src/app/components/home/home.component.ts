@@ -1,5 +1,6 @@
 import { TranslateService } from '@ngx-translate/core';
 import { Component } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -64,7 +65,11 @@ export class HomeComponent {
     }
   ];
 
-  constructor(public translate: TranslateService) {}
+  constructor(private meta: Meta, private translate: TranslateService,) {
+    this.translate.get('meta.home').subscribe(desc => {
+      this.meta.updateTag({ name: 'description', content: desc});
+    });
+  }
   get isFrench() {
     return this.translate.currentLang == 'fr';
   }
