@@ -36,7 +36,30 @@
                     <div class="alignright">
                         <div class="navfont-menu fonthover-03">
                             <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
-                            <a [routerLink]="['/services']">Services</a>&nbsp;&nbsp;&nbsp;
+                            
+                            <div class="dropdown">
+                                <a [routerLink]="['/services']" class="dropbtn">Services</a>
+                                <div class="dropdown-content">
+                                    <a [routerLink]="['services/coffrage']" *ngIf="isFrench">{{'home.p1' | translate}}</a>
+                                    <a [routerLink]="['services/formwork']" *ngIf="!isFrench">{{'home.p1' | translate}}</a>
+                                    <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench">{{'home.p2' | translate}}</a>
+                                    <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench">{{'home.p2' | translate}}</a>
+                                    <a [routerLink]="['services/agrandissement-maison']" *ngIf="isFrench">{{'home.p4' | translate}}</a>
+                                    <a [routerLink]="['services/house-extension']" *ngIf="!isFrench">{{'home.p4' | translate}}</a>
+                                    <a [routerLink]="['services/balcon-en-beton']" *ngIf="isFrench">{{'concrete-balcony' | translate}}</a>
+                                    <a [routerLink]="['services/concrete-balcony']" *ngIf="!isFrench">{{'concrete-balcony' | translate}}</a>
+                                    <a [routerLink]="['services/descente-sous-sol-beton']" *ngIf="isFrench">{{'concrete-basement' | translate}}</a>
+                                    <a [routerLink]="['services/concrete-basement']" *ngIf="!isFrench">{{'concrete-basement' | translate}}</a>
+                                    <a [routerLink]="['services/marche-de-beton']" *ngIf="isFrench">{{'concrete-staircase' | translate}}</a>
+                                    <a [routerLink]="['services/concrete-step']" *ngIf="!isFrench">{{'concrete-staircase' | translate}}</a>
+                                    <a [routerLink]="['services/dalle-de-beton']" *ngIf="isFrench">{{'concrete-dalle' | translate}}</a>
+                                    <a [routerLink]="['services/concrete-slab']" *ngIf="!isFrench">{{'concrete-dalle' | translate}}</a>
+                                    <a [routerLink]="['services/mini-excavation']" *ngIf="!isFrench">Mini excavation</a>
+                                    <a [routerLink]="['services/excavation-services']" *ngIf="isFrench">Mini excavation</a>
+                                    <a [routerLink]="['services/fissure-beton']" *ngIf="isFrench">{{'concrete-repair' | translate}}</a>
+                                    <a [routerLink]="['services/concrete-repair']" *ngIf="!isFrench">{{'concrete-repair' | translate}}</a>
+                                </div>
+                            </div>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/realisation']">{{'realizations' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/about']">{{'Company' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             <a [routerLink]="['/soumission']">{{'quote' | translate}}</a>&nbsp;&nbsp;&nbsp;
