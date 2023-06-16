@@ -30,8 +30,14 @@
         <p-carousel [value]="services" [numVisible]="3" [numScroll]="3" [responsiveOptions]="responsiveOptions">
             <ng-template let-service pTemplate="item">
                 <div class="service-item">
-                    <img src="./assets/img/{{ service.image }}" [alt]="service.name"/>
-                    <p>{{ service.name | translate }}</p>
+                    <a [routerLink]="[service.fr]" *ngIf="isFrench">
+                        <img src="./assets/img/{{ service.image }}" [alt]="service.name"/>
+                        <p>{{ service.name | translate}}</p>
+                    </a>
+                    <a [routerLink]="[service.en]" *ngIf="!isFrench">
+                        <img src="./assets/img/{{ service.image }}" [alt]="service.name"/>
+                        <p>{{ service.name | translate}}</p>
+                    </a>
                 </div>
             </ng-template>
         </p-carousel>
