@@ -15,5 +15,4 @@ export class AgrandissementMaisonComponent {
   get isFrench() {
     return this.translate.currentLang == 'fr';
   }
-
 }

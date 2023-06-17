@@ -38,7 +38,7 @@
                             <a [routerLink]="['/']">{{'home' | translate}}</a>&nbsp;&nbsp;&nbsp;
                             
                             <div class="dropdown">
-                                <a [routerLink]="['/services']" class="dropbtn">Services</a>
+                                <a [routerLink]="['/services']" class="dropbtn">Services <i class="fa-solid fa-chevron-down"></i></a>
                                 <div class="dropdown-content">
                                     <a [routerLink]="['services/coffrage']" *ngIf="isFrench">{{'home.p1' | translate}}</a>
                                     <a [routerLink]="['services/formwork']" *ngIf="!isFrench">{{'home.p1' | translate}}</a>
