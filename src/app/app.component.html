@@ -42,8 +42,8 @@
                                 <div class="dropdown-content">
                                     <a [routerLink]="['services/coffrage']" *ngIf="isFrench">{{'home.p1' | translate}}</a>
                                     <a [routerLink]="['services/formwork']" *ngIf="!isFrench">{{'home.p1' | translate}}</a>
-                                    <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench">{{'home.p2' | translate}}</a>
-                                    <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench">{{'home.p2' | translate}}</a>
+                                    <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench">{{'concrete-foundation-house' | translate}}</a>
+                                    <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench">{{'concrete-foundation-house' | translate}}</a>
                                     <a [routerLink]="['services/agrandissement-maison']" *ngIf="isFrench">{{'home.p4' | translate}}</a>
                                     <a [routerLink]="['services/house-extension']" *ngIf="!isFrench">{{'home.p4' | translate}}</a>
                                     <a [routerLink]="['services/balcon-en-beton']" *ngIf="isFrench">{{'concrete-balcony' | translate}}</a>
@@ -115,8 +115,8 @@
                     <div class="alignleft">
                         <div>
                             <p class="fonthover-04 bold" style="font-size: 24px;">Services</p>
-                            <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
-                            <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation' | translate}}</a>
+                            <a [routerLink]="['services/fondation-maison']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation-house' | translate}}</a>
+                            <a [routerLink]="['services/house-foundation']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-foundation-house' | translate}}</a>
                             <br>
                             <a [routerLink]="['services/coffrage']" *ngIf="isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>
                             <a [routerLink]="['services/formwork']" *ngIf="!isFrench" class="fonthover-04 lineheight-125" style="font-size: 17px;">{{'concrete-formwork' | translate}}</a>

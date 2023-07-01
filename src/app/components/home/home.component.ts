@@ -17,7 +17,7 @@ export class HomeComponent {
     },
     {
       image :'fondation.jpg',
-      name:'home.p2',
+      name:'concrete-foundation-house',
       en:'services/house-foundation',
       fr:'services/fondation-maison',
     },
