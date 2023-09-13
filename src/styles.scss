@@ -609,26 +609,6 @@ p {
   position: relative;
   z-index: 2;
 }
-
-.slider-001 {
-  position: absolute;
-  background-color: transparent;
-  top: 60px;
-  left: 50px;
-  width: 740px;
-  height: auto;
-  z-index: 3;
-}
-
-.slider-002 {
-  position: absolute;
-  background-color: transparent;
-  top: 290px;
-  left: 50px;
-  width: 700px;
-  height: auto;
-  z-index: 3;
-}
 /*  DISPLAY  */
 .block {
   display: block;
@@ -899,13 +879,6 @@ img {
   height: auto;
 }
 
-.backgroundimage-01 {
-  background-image: url('./assets/img/coffrage-de-beton-saint-lin-laurentides.jpg');
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
 
 .image-center {
   margin: 0 auto;
@@ -1099,57 +1072,11 @@ img {
   display: inline-block;
 }
 /*  TOP  */
-.top-010px {
-  top: 10px;
-}
-
-.top-015px {
-  top: 15px;
-}
-
-.top-020px {
-  top: 20px;
-}
-
-.top-030px {
-  top: 30px;
-}
-
-.top-040px {
-  top: 40px;
-}
 
 .top-050px {
   top: 50px;
 }
 
-.top-060px {
-  top: 60px;
-}
-
-.top-070px {
-  top: 70px;
-}
-
-.top-080px {
-  top: 80px;
-}
-
-.top-090px {
-  top: 90px;
-}
-
-.top-100px {
-  top: 100px;
-}
-
-.top-200px {
-  top: 200px;
-}
-
-.top-300px {
-  top: 300px;
-}
 @media only screen and (max-width: 1800px) {
   .navfont-menu {
     font-size: 16px;
@@ -1201,10 +1128,6 @@ img {
     font-size: 19px;
   }
 
-  .top-030px {
-    top: 29px;
-  }
-
   .top-050px {
     top: 45px;
   }
@@ -1242,17 +1165,10 @@ img {
     max-width: 1150px;
   }
 
-  .top-030px {
-    top: 27px;
-  }
-
   .top-050px {
     top: 42px;
   }
 
-  .top-060px {
-    top: 55px;
-  }
 
 }
 @media only screen and (max-width: 1200px) {
@@ -1298,34 +1214,13 @@ img {
     max-width: 1080px;
   }
 
-  .slider-001 {
-    top: 50px;
-    left: 49px;
-    width: 740px;
-  }
-
-  .slider-002 {
-    top: 280px;
-    left: 49px;
-    width: 700px;
-  }
-
   .spacer-004 {
     height: 8px;
-  }
-
-  .top-030px {
-    top: 25px;
   }
 
   .top-050px {
     top: 39px;
   }
-
-  .top-060px {
-    top: 52px;
-  }
-
 
 }
 @media only screen and (max-width: 1100px) {
@@ -1369,33 +1264,14 @@ img {
     padding: 50px 0;
   }
 
-  .slider-001 {
-    top: 45px;
-    left: 47px;
-    width: 740px;
-  }
-
-  .slider-002 {
-    top: 275px;
-    left: 47px;
-    width: 700px;
-  }
-
   .spacer-001 {
     height: 9px;
-  }
-
-  .top-030px {
-    top: 21px;
   }
 
   .top-050px {
     top: 35px;
   }
 
-  .top-060px {
-    top: 50px;
-  }
 }
 /* Tablet */
 @media only screen and (max-width: 1050px) {
@@ -1451,34 +1327,12 @@ img {
     margin-top: 0;
   }
 
-  .slider-001 {
-    top: 45px;
-    left: 47px;
-    width: 740px;
-  }
-
-  .slider-002 {
-    top: 240px;
-    left: 47px;
-    width: 700px;
-  }
-
   .spacer-001 {
     height: 8px;
   }
-
-  .top-030px {
-    top: 15px;
-  }
-
   .top-050px {
     top: 32px;
   }
-
-  .top-060px {
-    top: 45px;
-  }
-
 }
 @media only screen and (max-width: 1000px) {
 
@@ -1510,41 +1364,16 @@ img {
     grid-gap: 12px 12px;
   }
 
-  .slider-001 {
-    top: 43px;
-    left: 47px;
-    width: 740px;
-  }
-
   .spacer-001 {
     height: 7px;
   }
-
-  .top-030px {
-    top: 15px;
-  }
-
   .top-050px {
     top: 30px;
   }
-
-  .top-060px {
-    top: 42px;
-  }
-
 }
 
 @media only screen and (max-width: 900px) {
 
-  .backgroundimage-01 {
-    background-image: url('./assets/img/coffrage-de-beton-saint-lin-laurentides.jpg');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    display: block;
-    height: 100%;
-  }
 
   .button-01 {
     padding: 8px 13px;
@@ -1599,33 +1428,13 @@ img {
     padding: 35px 0;
   }
 
-  .slider-001 {
-    top: 40px;
-    left: 43px;
-    width: 620px;
-  }
-
-  .slider-002 {
-    top: 200px;
-    left: 43px;
-    width: 600px;
-  }
 
   .spacer-001 {
     height: 6px;
   }
 
-
-  .top-030px {
-    top: 10px;
-  }
-
   .top-050px {
     top: 28px;
-  }
-
-  .top-060px {
-    top: 38px;
   }
 
 }
@@ -1704,32 +1513,14 @@ img {
     padding: 32px 0;
   }
 
-  .slider-001 {
-    top: 30px;
-    left: 40px;
-    width: 620px;
-  }
-
-  .slider-002 {
-    top: 190px;
-    left: 40px;
-    width: 600px;
-  }
 
   .spacer-001 {
     height: 1px;
   }
 
-  .top-030px {
-    top: 9px;
-  }
 
   .top-050px {
     top: 26px;
-  }
-
-  .top-060px {
-    top: 35px;
   }
 
 }
@@ -1803,18 +1594,6 @@ img {
     padding: 30px 0;
   }
 
-  .slider-001 {
-    top: 30px;
-    left: 40px;
-    width: 620px;
-  }
-
-  .slider-002 {
-    top: 170px;
-    left: 40px;
-    width: 600px;
-  }
-
   .spacer-001 {
     height: 0px;
     margin-top: -2px;
@@ -1822,10 +1601,6 @@ img {
 
   .top-050px {
     top: 23px;
-  }
-
-  .top-060px {
-    top: 25px;
   }
 
 }
@@ -1845,9 +1620,6 @@ img {
     text-align: center;
   }
 
-  .backgroundimage-01 {
-    height: 400px;
-  }
 
   .button-01 {
     padding: 9px 18px;
@@ -1954,17 +1726,6 @@ img {
     padding: 30px 0;
   }
 
-  .slider-001 {
-    top: 30px;
-    left: 30px;
-    width: 620px;
-  }
-
-  .slider-002 {
-    top: 160px;
-    left: 30px;
-    width: 600px;
-  }
 
   .spacer-001 {
     height: 0px;
@@ -1981,18 +1742,10 @@ img {
     display: block;
   }
 
-  .top-030px {
-    top: 8px;
-  }
 
   .top-050px {
     top: 22px;
   }
-
-  .top-060px {
-    top: 20px;
-  }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -2083,18 +1836,6 @@ img {
     padding: 30px 0;
   }
 
-  .slider-001 {
-    top: 25px;
-    left: 30px;
-    width: 520px;
-  }
-
-  .slider-002 {
-    top: 140px;
-    left: 30px;
-    width: 500px;
-  }
-
   .spacer-001 {
     height: 0px;
     margin-top: -2px;
@@ -2108,10 +1849,6 @@ img {
   .spacer-003 {
     height: 42px;
     display: block;
-  }
-
-  .top-060px {
-    top: 17px;
   }
 
 }
@@ -2160,19 +1897,6 @@ img {
     font-size: 14px;
     line-height: 20px;
   }
-
-  .slider-001 {
-    top: 25px;
-    left: 25px;
-    width: 500px;
-  }
-
-  .slider-002 {
-    top: 130px;
-    left: 25px;
-    width: 490px;
-  }
-
   .spacer-001 {
     height: 0px;
     margin-top: -3px;
@@ -2188,16 +1912,9 @@ img {
     display: block;
   }
 
-  .top-030px {
-    top: 7px;
-  }
-
   .top-050px {
     top: 21px;
   }
-
-
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -2210,11 +1927,6 @@ img {
   .alignleft {
     text-align: center;
   }
-
-  .backgroundimage-01 {
-    height: 350px;
-  }
-
 
   .button-02 {
     display: none;
@@ -2295,18 +2007,6 @@ img {
     line-height: 20px;
   }
 
-  .slider-001 {
-    top: 20px;
-    left: 20px;
-    width: 450px;
-  }
-
-  .slider-002 {
-    top: 105px;
-    left: 20px;
-    width: 450px;
-  }
-
 
   .spacer-001 {
     height: 0px;
@@ -2321,18 +2021,9 @@ img {
     height: 38px;
   }
 
-  .top-030px {
-    top: 6px;
-  }
-
   .top-050px {
     top: 20px;
   }
-
-  .top-060px {
-    top: 15px;
-  }
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -2353,9 +2044,6 @@ img {
 
 @media only screen and (max-width: 425px) {
 
-  .backgroundimage-01 {
-    height: 300px;
-  }
 
   .button-01 {
     padding: 9px 16px;
@@ -2394,35 +2082,16 @@ img {
     line-height: 20px;
   }
 
-  .slider-001 {
-    top: 17px;
-    left: 17px;
-    width: 400px;
-  }
-
-  .slider-002 {
-    top: 95px;
-    left: 17px;
-    width: 380px;
-  }
 
   .spacer-001 {
     height: 0px;
     margin-top: -6px;
   }
 
-  .top-030px {
-    top: 5px;
-  }
 
   .top-050px {
     top: 15px;
   }
-
-  .top-060px {
-    top: 10px;
-  }
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -2458,27 +2127,9 @@ img {
     line-height: 20px;
   }
 
-  .slider-001 {
-    top: 10px;
-    left: 10px;
-    width: 365px;
-  }
-
-  .slider-002 {
-    top: 80px;
-    left: 10px;
-    width: 365px;
-  }
-
   .top-050px {
     top: 13px;
   }
-
-  .top-060px {
-    top: 8px;
-  }
-
-
 }
 
 @media only screen and (max-width: 325px) {
@@ -2488,23 +2139,7 @@ img {
     line-height: 1.20;
   }
 
-  .slider-001 {
-    top: 7px;
-    left: 9px;
-    width: 325px;
-  }
-
-  .slider-002 {
-    top: 70px;
-    left: 9px;
-    width: 325px;
-  }
-
   .top-050px {
     top: 17px;
-  }
-
-  .top-060px {
-    top: 7px;
   }
 }
