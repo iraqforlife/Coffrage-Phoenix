@@ -13,7 +13,6 @@
     <base href="/Coffrage-Phoenix" />
 
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./assets/slider.css">
     <script src="./assets/e07c990d09.js" crossorigin="anonymous"></script>
     <script src="./assets/paperform.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
