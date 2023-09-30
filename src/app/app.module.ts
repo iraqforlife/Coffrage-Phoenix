@@ -35,9 +35,11 @@ import { BalconEnBetonComponent } from './components/services/balcon-en-beton/ba
 import { CoffrageComponent } from './components/services/coffrage/coffrage.component';
 import { AgrandissementMaisonComponent } from './components/services/agrandissement-maison/agrandissement-maison.component';
 import { FissureBetonComponent } from './components/services/fissure-beton/fissure-beton.component';
+import { NgOptimizedImage } from '@angular/common';
 
 @NgModule({
   imports: [
+    NgOptimizedImage,
     BrowserModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
