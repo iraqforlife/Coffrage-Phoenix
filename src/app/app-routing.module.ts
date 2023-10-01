@@ -49,11 +49,11 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path:'coffrage-saint-lin-laurentides.htm',
+    path:'coffrage-saint-lin-laurentides.html',
     component: SoumissionComponent
   },
   {
-    path:'coffrage-fondation-de-beton.htm',
+    path:'coffrage-fondation-de-beton.html',
     component: ServicesComponent
   },   
   {

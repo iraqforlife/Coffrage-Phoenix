@@ -9,7 +9,7 @@
     "dev:ssr": "ng run Coffrage-Phoenix:serve-ssr",
     "serve:ssr": "node dist/server/main.js",
     "build:ssr": "ng build && ng run Coffrage-Phoenix:server",
-    "prerender": "ng run --base-href / Coffrage-Phoenix:prerender "
+    "prerender": "ng run Coffrage-Phoenix:prerender"
   },
   "private": true,
   "dependencies": {
