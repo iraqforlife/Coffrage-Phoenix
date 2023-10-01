@@ -23,14 +23,14 @@ export class AppComponent {
   
       // // this language will be used as a fallback when a translation isn't found in the current language
       translate.setDefaultLang('fr');
-      const langChosen = localStorage.getItem('lang-chosen');
-      if (langChosen) {
-        this.translate.use(langChosen);
-      } else {
+      //const langChosen = localStorage.getItem('lang-chosen');
+      //if (langChosen) {
+       // this.translate.use(langChosen);
+     // } else {
         const browserLang = translate.getBrowserLang();
         if(browserLang) translate.use(browserLang);
         else translate.use('fr');
-      }
+      //}
       router.events.subscribe((routerEvent: Event) => {
         this.checkRouterEvent(routerEvent);
       });
@@ -51,7 +51,7 @@ export class AppComponent {
     }
   }
   english() {
-    localStorage.setItem('lang-chosen', 'en');
+    //localStorage.setItem('lang-chosen', 'en');
     this.translate.use('en');
     this.meta.updateTag({name:'language',content:'English'});
     this.translate.get('meta.home').subscribe(desc => {
@@ -59,7 +59,7 @@ export class AppComponent {
     });
   } 
   french() {
-    localStorage.setItem('lang-chosen', 'fr');
+    //localStorage.setItem('lang-chosen', 'fr');
     this.translate.use('fr');
     this.meta.updateTag({name:'language',content:'French'});
     this.translate.get('meta.home').subscribe(desc => {

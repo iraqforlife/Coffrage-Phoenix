@@ -12,8 +12,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs",
-            "index": "src/index.shtml",
+            "outputPath": "dist/Coffrage-Phoenix/browser",
+            "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -91,6 +91,60 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy"
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/Coffrage-Phoenix/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "Coffrage-Phoenix:build:development",
+              "serverTarget": "Coffrage-Phoenix:server:development"
+            },
+            "production": {
+              "browserTarget": "Coffrage-Phoenix:build:production",
+              "serverTarget": "Coffrage-Phoenix:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "Coffrage-Phoenix:build:production",
+              "serverTarget": "Coffrage-Phoenix:server:production"
+            },
+            "development": {
+              "browserTarget": "Coffrage-Phoenix:build:development",
+              "serverTarget": "Coffrage-Phoenix:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
