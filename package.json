@@ -7,9 +7,9 @@
     "start": "ng serve --host=127.0.0.1",
     "prod": "ng build --configuration production --base-href / --output-path docs",
     "dev:ssr": "ng run Coffrage-Phoenix:serve-ssr",
-    "serve:ssr": "node dist/Coffrage-Phoenix/server/main.js",
+    "serve:ssr": "node dist/server/main.js",
     "build:ssr": "ng build && ng run Coffrage-Phoenix:server",
-    "prerender": "ng run Coffrage-Phoenix:prerender"
+    "prerender": "ng run --base-href / Coffrage-Phoenix:prerender "
   },
   "private": true,
   "dependencies": {
