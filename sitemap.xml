@@ -28,7 +28,7 @@
   <priority>0.91</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/formwork</loc>
+  <loc>https://coffragesphoenix.com/en/services/formwork</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.911</priority>
 </url>
@@ -38,7 +38,7 @@
   <priority>0.92</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/house-foundation</loc>
+  <loc>https://coffragesphoenix.com/en/services/house-foundation</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.921</priority>
 </url>
@@ -48,7 +48,7 @@
   <priority>0.93</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/house-extension</loc>
+  <loc>https://coffragesphoenix.com/en/services/house-extension</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.931</priority>
 </url>
@@ -58,7 +58,7 @@
   <priority>0.94</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/concrete-balcony</loc>
+  <loc>https://coffragesphoenix.com/en/services/concrete-balcony</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.941</priority>
 </url>
@@ -68,7 +68,7 @@
   <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/concrete-basement</loc>
+  <loc>https://coffragesphoenix.com/en/services/concrete-basement</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.951</priority>
 </url>
@@ -78,47 +78,25 @@
   <priority>0.96</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/concrete-step</loc>
+  <loc>https://coffragesphoenix.com/en/services/concrete-step</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.961</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/dalle-de-beton</loc>
+  <loc>https://coffragesphoenix.com/en/services/dalle-de-beton</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.97</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/services/concrete-slab</loc>
+  <loc>https://coffragesphoenix.com/en/services/concrete-slab</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.971</priority>
 </url>
-<url>
-  <loc>https://coffragesphoenix.com/services/excavation-services</loc>
-  <lastmod>2023-09-30T14:01:26+00:00</lastmod>
-  <priority>0.98</priority>
-</url>
-<url>
-  <loc>https://coffragesphoenix.com/services/mini-excavation</loc>
-  <lastmod>2023-09-30T14:01:26+00:00</lastmod>
-  <priority>0.981</priority>
-</url>
-<url>
-  <loc>https://coffragesphoenix.com/services/fissure-beton</loc>
-  <lastmod>2023-09-30T14:01:26+00:00</lastmod>
-  <priority>0.982</priority>
-</url>
-<url>
-  <loc>https://coffragesphoenix.com/services/concrete-repair</loc>
-  <lastmod>2023-09-30T14:01:26+00:00</lastmod>
-  <priority>0.983</priority>
-</url>
-
 <url>
   <loc>https://coffragesphoenix.com/about</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.7</priority>
 </url>
-
 <url>
   <loc>https://coffragesphoenix.com/soumission</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
@@ -130,7 +108,7 @@
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://coffragesphoenix.com/coffrage-fondation-de-beton.html</loc>
+  <loc>https://coffragesphoenix.com/coffrage-fondation-de-beton</loc>
   <lastmod>2023-09-30T14:01:26+00:00</lastmod>
   <priority>0.61</priority>
 </url>
